@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>City Flags of the USA</title>
+		<style>
+			html, body, #map {
+				padding:0;
+				margin:0;
+				height:100%;
+			}
+			.overlay {
+				display: block;
+				position: absolute;
+				z-index: 2;
+				top: 20px;
+				left: 20px;
+			}
+			.credits {
+				position: fixed;
+				bottom: 0px;
+				right: 80px;
+				background-color: #D0CFD4;
+				padding: 5px;
+				font-size: 12px;
+				
+			}
+			.credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<link rel="stylesheet" href="//js.arcgis.com/3.12/esri/css/esri.css" />
+		<script src="//js.arcgis.com/3.12compact"></script>
+		<script src="script.js"></script>
+		<div class="overlay" id="overlay">
+	        <div class="credits">by <a href="http://twitter.com/gavinrehkemper" target="_blank">@gavinrehkemper</a></div>
+	    </div>
+		<div id="map"></div>
+	</body>
+</html>
