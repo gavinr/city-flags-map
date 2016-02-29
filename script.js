@@ -19,16 +19,16 @@ require([
 ) {
     var addFlagGraphic = function(cityObj, width) {
       var height = width * 0.6;
-      var point = new Point(cityObj.Lon, cityObj.Lat);
-      var symbol = new PictureMarkerSymbol(cityObj.Image, width, height);
+      var point = new Point(cityObj.lon, cityObj.lat);
+      var symbol = new PictureMarkerSymbol(cityObj.image, width, height);
 
       var attr = {
-        'City': cityObj.City,
-        'State': cityObj.State,
-        'Link': cityObj.Link,
-        'Image': cityObj.Image
+        'city': cityObj.city,
+        'state': cityObj.state,
+        'link': cityObj.link,
+        'image': cityObj.image
       };
-      var infoTemplate = new InfoTemplate("${City}, ${State}", "<a href='${Link}' target='_blank'><img src='${Image}' /></a>");
+      var infoTemplate = new InfoTemplate("${city}, ${state}", "<a href='${link}' target='_blank'><img src='${image}' /></a>");
       var graphic = new Graphic(point, symbol, attr, infoTemplate);
       graphicsLayer.add(graphic);
     };
