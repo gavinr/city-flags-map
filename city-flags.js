@@ -1296,6 +1296,15 @@
     "lon": -108.50069
   },
   {
+    "city": "Lincoln",
+    "state": "Nebraska",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Lincoln,_Nebraska",
+    "image": "//upload.wikimedia.org/wikipedia/en/thumb/5/5a/Flag_of_the_City_of_Lincoln%2C_Nebraska.jpg/218px-Flag_of_the_City_of_Lincoln%2C_Nebraska.jpg",
+    "lat": 40.825763,
+    "lon": -96.685198
+  },
+  {
     "city": "Elko",
     "state": "Nevada",
     "country": "USA",
