@@ -12,6 +12,14 @@ import Map = require('esri/map');
 import esriRequest = require('esri/request');
 import PictureMarkerSymbol = require('esri/symbols/PictureMarkerSymbol');
 
+interface cityObject {
+  city: string,
+  state: string,
+  link: string,
+  image: string,
+  lat: number,
+  lon: number
+}
 
 var MapView = dojoDeclare([_WidgetBase, _TemplatedMixin], {
   templateString: '<div class="map-container"></div>',
@@ -45,7 +53,7 @@ var MapView = dojoDeclare([_WidgetBase, _TemplatedMixin], {
       console.log("Error querying data.");
     });
   },
-  addFlagGraphic: function(cityObj, width) {
+  addFlagGraphic: function(cityObj: cityObject, width: number) {
     var height = width * 0.6;
     var point = new Point(cityObj.lon, cityObj.lat);
     var symbol = new PictureMarkerSymbol(cityObj.image, width, height);
@@ -60,7 +68,7 @@ var MapView = dojoDeclare([_WidgetBase, _TemplatedMixin], {
     var graphic = new Graphic(point, symbol, attr, infoTemplate);
     this.graphicsLayer.add(graphic);
   },
-  zoomChangeHandler: function(evt, res) {
+  zoomChangeHandler: function(evt, res) : any {
     this.graphicsLayer.clear();
     if (evt.level < 4) {
       res.forEach(lang.hitch(this, function(item) {
