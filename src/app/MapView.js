@@ -25,7 +25,6 @@ define([
     // Widget LifeCycle
     postCreate: function() {
       this.inherited(arguments);
-      console.log('PC', this.domNode);
       // Create the map
       var map = new Map(this.domNode, {
         basemap: "topo",
@@ -46,9 +45,9 @@ define([
         res.forEach(lang.hitch(this, function(item) {
           this.addFlagGraphic(item, 22);
         }));
-        on(map, 'zoom-end', function(evt) {
-          zoomChangeHandler(evt, res);
-        });
+        on(map, 'zoom-end', lang.hitch(this, function(evt) {
+          this.zoomChangeHandler(evt, res);
+        }));
       }), function(err) {
         console.log("Error querying data.");
       });
