@@ -1,13 +1,15 @@
 [
-  {
-    "city": "Palmas",
-    "state": "Tocantins",
-    "country": "Brazil",
-    "link": "//en.wikipedia.org/wiki/Palmas,_Tocantins",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bandeira_de_Palmas.svg/220px-Bandeira_de_Palmas.svg.png",
-    "lat": -10.184444,
-    "lon": -48.333611
+ //Start United States
+ {
+    "city": "Washington",
+    "state": "D.C.",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Washington,_D.C.",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Washington%2C_D.C..svg/180px-Flag_of_Washington%2C_D.C..svg.png",
+    "lat": 38.907192,
+    "lon": -77.036871
   },
+//Start Alabama
   {
     "city": "Birmingham",
     "state": "Alabama",
@@ -35,6 +37,9 @@
     "lat": 32.366805,
     "lon": -86.299969
   },
+  //End Alabama
+  
+  //Start Alaska
   {
     "city": "Anchorage",
     "state": "Alaska",
@@ -53,6 +58,9 @@
     "lat": 58.301944,
     "lon": -134.419722
   },
+  //End Alaska
+  
+  //Start Arizona
   {
     "city": "Mesa",
     "state": "Arizona",
@@ -80,6 +88,9 @@
     "lat": 32.221743,
     "lon": -110.926479
   },
+  //End Arizona
+  
+  //Start Arkansas
   {
     "city": "Little Rock",
     "state": "Arkansas",
@@ -89,6 +100,9 @@
     "lat": 34.746481,
     "lon": -92.289595
   },
+  //End Arkansas
+  
+  //Start California
   {
     "city": "Anaheim",
     "state": "California",
@@ -485,6 +499,9 @@
     "lat": 38.678516,
     "lon": -121.773297
   },
+  //End California
+  
+  //Start Colorado
   {
     "city": "Colorado Springs",
     "state": "Colorado",
@@ -539,6 +556,9 @@
     "lat": 39.836653,
     "lon": -105.037205
   },
+  //End Colorado
+  
+  //Start Connecticut
   {
     "city": "Bridgeport",
     "state": "Connecticut",
@@ -548,15 +568,9 @@
     "lat": 41.186548,
     "lon": -73.195177
   },
-  {
-    "city": "Washington",
-    "state": "D.C.",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Washington,_D.C.",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Washington%2C_D.C..svg/180px-Flag_of_Washington%2C_D.C..svg.png",
-    "lat": 38.907192,
-    "lon": -77.036871
-  },
+  //End Connecticut
+  
+  //Start Delaware
   {
     "city": "Wilmington",
     "state": "Delaware",
@@ -566,6 +580,9 @@
     "lat": 39.739072,
     "lon": -75.539788
   },
+  //End Delaware
+  
+  //Start Florida
   {
     "city": "Apopka",
     "state": "Florida",
@@ -809,6 +826,9 @@
     "lat": 28.6,
     "lon": -81.339235
   },
+  //End Florida
+  
+  //Start Georgia
   {
     "city": "Atlanta",
     "state": "Georgia",
@@ -836,6 +856,9 @@
     "lat": 34.872022,
     "lon": -85.50913
   },
+  //End Georgia
+  
+  //Start Hawaii
   {
     "city": "Honolulu",
     "state": "Hawaii",
@@ -845,6 +868,9 @@
     "lat": 21.306944,
     "lon": -157.858333
   },
+  //End Hawaii
+  
+  //Start Illinois
   {
     "city": "Chicago",
     "state": "Illinois",
@@ -863,6 +889,9 @@
     "lat": 39.781721,
     "lon": -89.650148
   },
+  //End Illinois
+  
+  // Start Indiana
   {
     "city": "Evansville",
     "state": "Indiana",
@@ -908,6 +937,9 @@
     "lat": 38.677269,
     "lon": -87.528633
   },
+  //End Indiana
+  
+  //Start Iowa
   {
     "city": "Des Moines",
     "state": "Iowa",
@@ -926,6 +958,9 @@
     "lat": 41.011667,
     "lon": -95.227222
   },
+  //End Iowa
+  
+  //Start Kansas
   {
     "city": "Topeka",
     "state": "Kansas",
@@ -944,6 +979,9 @@
     "lat": 37.688889,
     "lon": -97.336111
   },
+  //End Kanasas
+  
+  //Start Kentucky
   {
     "city": "Louisville",
     "state": "Kentucky",
@@ -953,6 +991,9 @@
     "lat": 38.252665,
     "lon": -85.758456
   },
+  //End Kentucky
+  
+  //Start Louisiana
   {
     "city": "Baton Rouge",
     "state": "Louisiana",
@@ -980,6 +1021,9 @@
     "lat": 32.525152,
     "lon": -93.750179
   },
+  //End Louisiana
+  
+  //Start Maine
   {
     "city": "Greenbush",
     "state": "Maine",
@@ -1025,6 +1069,9 @@
     "lat": 44.273558,
     "lon": -69.367658
   },
+  //End Maine
+  
+  //Start Maryland
   {
     "city": "Annapolis",
     "state": "Maryland",
@@ -1097,6 +1144,9 @@
     "lat": 39.083997,
     "lon": -77.152758
   },
+  //End Maryland
+  
+  //Start Massachusetts
   {
     "city": "Boston",
     "state": "Massachusetts",
@@ -1142,6 +1192,9 @@
     "lat": 42.262593,
     "lon": -71.802293
   },
+  //End Massachusetts
+  
+  //Start Michigan
   {
     "city": "Detroit",
     "state": "Michigan",
@@ -1151,6 +1204,9 @@
     "lat": 42.331427,
     "lon": -83.045754
   },
+  //End Michigan
+  
+  //Start Minnesota
   {
     "city": "Brooklyn Park",
     "state": "Minnesota",
@@ -1241,6 +1297,9 @@
     "lat": 44.923855,
     "lon": -92.95938
   },
+  //End Minnesota
+  
+  //Start Mississippi
   {
     "city": "Jackson",
     "state": "Mississippi",
@@ -1259,6 +1318,9 @@
     "lat": 30.315753,
     "lon": -89.247543
   },
+  //End Mississippi
+  
+  //Start Missouri
   {
     "city": "Jefferson City",
     "state": "Missouri",
@@ -1286,6 +1348,9 @@
     "lat": 38.627003,
     "lon": -90.199404
   },
+  //End Missouri
+  
+  //Start Montana
   {
     "city": "Billings",
     "state": "Montana",
@@ -1295,6 +1360,9 @@
     "lat": 45.783286,
     "lon": -108.50069
   },
+  //End Montana
+  
+  //Start Nebraska
   {
     "city": "Lincoln",
     "state": "Nebraska",
@@ -1304,6 +1372,9 @@
     "lat": 40.825763,
     "lon": -96.685198
   },
+  //End Nebraska
+  
+  //Start Nevada
   {
     "city": "Elko",
     "state": "Nevada",
@@ -1331,6 +1402,9 @@
     "lat": 39.529633,
     "lon": -119.813803
   },
+  //End Nevada
+  
+  //Start New Jersey
   {
     "city": "Bayonne",
     "state": "New Jersey",
@@ -1358,6 +1432,9 @@
     "lat": 40.217053,
     "lon": -74.742938
   },
+  //End New Jersey
+  
+  //Start New Mexico
   {
     "city": "Albuquerque",
     "state": "New Mexico",
@@ -1376,6 +1453,9 @@
     "lat": 33.394266,
     "lon": -104.523024
   },
+  //End New Mexico
+  
+  //Start New York
   {
     "city": "Albany",
     "state": "New York",
@@ -1448,6 +1528,9 @@
     "lat": 40.93121,
     "lon": -73.898747
   },
+  //End New York
+  
+  //Start North Carolina
   {
     "city": "Durham",
     "state": "North Carolina",
@@ -1466,6 +1549,9 @@
     "lat": 35.77959,
     "lon": -78.638179
   },
+  //End North Carolina
+  
+  //Start North Dakota
   {
     "city": "Grand Forks",
     "state": "North Dakota",
@@ -1475,6 +1561,9 @@
     "lat": 47.925257,
     "lon": -97.032855
   },
+  //End North Dakota
+  
+  //Start Ohio
   {
     "city": "Cincinnati",
     "state": "Ohio",
@@ -1511,6 +1600,9 @@
     "lat": 41.663938,
     "lon": -83.555212
   },
+  //End Ohio
+  
+  //Start Oklahoma
   {
     "city": "Holdenville",
     "state": "Oklahoma",
@@ -1520,6 +1612,9 @@
     "lat": 35.080362,
     "lon": -96.399177
   },
+  //End Okalahoma
+  
+  //Start Oregon
   {
     "city": "Portland",
     "state": "Oregon",
@@ -1529,6 +1624,9 @@
     "lat": 45.523062,
     "lon": -122.676482
   },
+  //End Oregon
+  
+  //Start Pennsylvania
   {
     "city": "Easton",
     "state": "Pennsylvania",
@@ -1574,6 +1672,9 @@
     "lat": 40.440625,
     "lon": -79.995886
   },
+  //End Pennsylvania
+  
+  //Start South Carolina
   {
     "city": "Charleston",
     "state": "South Carolina",
@@ -1583,6 +1684,9 @@
     "lat": 32.776475,
     "lon": -79.931051
   },
+  //End Sourth Carolina
+  
+  //Start Tennessee
   {
     "city": "Chattanooga",
     "state": "Tennessee",
@@ -1610,6 +1714,9 @@
     "lat": 36.162664,
     "lon": -86.781602
   },
+  //End Tennessee
+  
+  //Start Texas
   {
     "city": "Abilene",
     "state": "Texas",
@@ -1799,6 +1906,9 @@
     "lat": 29.288989,
     "lon": -98.644785
   },
+  //End Texas
+  
+  //Start Utah
   {
     "city": "Provo",
     "state": "Utah",
@@ -1817,6 +1927,9 @@
     "lat": 40.760779,
     "lon": -111.891047
   },
+  //End Utah
+  
+  //Start Virginia
   {
     "city": "Hampton Roads",
     "state": "Virginia",
@@ -1862,6 +1975,9 @@
     "lat": 36.852926,
     "lon": -75.977985
   },
+  //End Virginia
+  
+  //Start Washington
   {
     "city": "Seattle",
     "state": "Washington",
@@ -1871,6 +1987,9 @@
     "lat": 47.609722,
     "lon": -122.333056
   },
+  //End Washington
+  
+  //Start West Virginia
   {
     "city": "Huntington",
     "state": "West Virginia",
@@ -1880,6 +1999,9 @@
     "lat": 38.41925,
     "lon": -82.445154
   },
+  //End West Virginia
+  
+  //Start Wisconsin
   {
     "city": "Beloit",
     "state": "Wisconsin",
@@ -1897,7 +2019,7 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Madison%2C_Wisconsin.svg/180px-Flag_of_Madison%2C_Wisconsin.svg.png",
     "lat": 43.073052,
     "lon": -89.40123
-  },
+  }
   {
     "city": "Milwaukee",
     "state": "Wisconsin",
@@ -1907,14 +2029,23 @@
     "lat": 43.038903,
     "lon": -87.906474
   },
-  {
-    "city": "Lincoln",
-    "state": "Nebraska",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Lincoln,_Nebraska",
-    "image": "//upload.wikimedia.org/wikipedia/en/5/5a/Flag_of_the_City_of_Lincoln%2C_Nebraska.jpg",
-    "lat": 40.825763,
-    "lon": -96.685198
-  }
+  //End Wisconsin
   
+  //Start Wyoming
+  
+  //End Wyoming
+  
+  //End United States
+  
+  //Start Brazil
+   {
+    "city": "Palmas",
+    "state": "Tocantins",
+    "country": "Brazil",
+    "link": "//en.wikipedia.org/wiki/Palmas,_Tocantins",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bandeira_de_Palmas.svg/220px-Bandeira_de_Palmas.svg.png",
+    "lat": -10.184444,
+    "lon": -48.333611
+  },
+  //End Brazil
 ]
