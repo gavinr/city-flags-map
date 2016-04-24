@@ -9,6 +9,15 @@
     "lon": -48.333611
   },
   {
+    "city": "Mexico City",
+    "state": "Mexico",
+    "country": "Mexico",
+    "link": "//en.wikipedia.org/wiki/Mexico_City",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Mexican_Federal_District.svg/220px-Flag_of_Mexican_Federal_District.svg.png",
+    "lat": 19.433333,
+    "lon": -99.133333
+  },
+  {
     "city": "Birmingham",
     "state": "Alabama",
     "country": "USA",
