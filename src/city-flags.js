@@ -1822,7 +1822,7 @@
     "state": "Utah",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Provo,_Utah",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Provo%2C_Utah.svg/180px-Flag_of_Provo%2C_Utah.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Provo%2C_Utah_City_Flag.png/220px-Provo%2C_Utah_City_Flag.png",
     "lat": 40.233844,
     "lon": -111.658534
   },
