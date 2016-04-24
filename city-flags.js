@@ -9,6 +9,15 @@
     "lon": -48.333611
   },
   {
+    "city": "Mexico City",
+    "state": "Mexico",
+    "country": "Mexico",
+    "link": "//en.wikipedia.org/wiki/Mexico_City",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Mexican_Federal_District.svg/220px-Flag_of_Mexican_Federal_District.svg.png",
+    "lat": 19.433333,
+    "lon": -99.133333
+  },
+  {
     "city": "Birmingham",
     "state": "Alabama",
     "country": "USA",
@@ -1449,6 +1458,15 @@
     "lon": -73.898747
   },
   {
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+    "image": "//upload.wikimedia.org/wikipedia/en/6/68/Charlotteflag.png",
+    "lat": 35.226944,
+    "lon": -80.843333
+  },
+  {
     "city": "Durham",
     "state": "North Carolina",
     "country": "USA",
@@ -1804,7 +1822,7 @@
     "state": "Utah",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Provo,_Utah",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Provo%2C_Utah.svg/180px-Flag_of_Provo%2C_Utah.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Provo%2C_Utah_City_Flag.png/220px-Provo%2C_Utah_City_Flag.png",
     "lat": 40.233844,
     "lon": -111.658534
   },
