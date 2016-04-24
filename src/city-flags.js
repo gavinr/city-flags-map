@@ -1458,6 +1458,15 @@
     "lon": -73.898747
   },
   {
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+    "image": "//upload.wikimedia.org/wikipedia/en/6/68/Charlotteflag.png",
+    "lat": 35.226944,
+    "lon": -80.843333
+  },
+  {
     "city": "Durham",
     "state": "North Carolina",
     "country": "USA",
