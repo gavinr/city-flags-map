@@ -1,6 +1,9 @@
 # city-flags-map
 Map of city flags.
 
+[![City Flags Map Screenshot](http://i.imgur.com/AuSJdC0.png)](http://gavinr.github.io/city-flags-map/)
+
+
 Here is the fun: http://gavinr.github.io/city-flags-map/
 
 More info on [the blog](http://gavinr.com/2015/01/17/city-flags-map/)
