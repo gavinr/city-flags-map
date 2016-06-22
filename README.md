@@ -1,7 +1,7 @@
 # city-flags-map
 Map of city flags.
 
-[![City Flags Map Screenshot](http://i.imgur.com/AuSJdC0.png)](http://gavinr.github.io/city-flags-map/)
+[![City Flags Map Screenshot](http://i.imgur.com/e8xdhT1.png)](http://gavinr.github.io/city-flags-map/)
 
 
 Here is the fun: http://gavinr.github.io/city-flags-map/
