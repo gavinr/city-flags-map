@@ -28,8 +28,8 @@ define([
       // Create the map
       var map = new Map(this.domNode, {
         basemap: "topo",
-        center: [-100, 39.5],
-        zoom: 4
+        center: [0, 0],
+        zoom: 3
       });
       this.set('map', map);
 
@@ -59,11 +59,11 @@ define([
 
       var attr = {
         'city': cityObj.city,
-        'state': cityObj.state,
+        'country': cityObj.country,
         'link': cityObj.link,
         'image': cityObj.image
       };
-      var infoTemplate = new InfoTemplate("${city}, ${state}", "<a href='${link}' target='_blank'><img src='${image}' /></a>");
+      var infoTemplate = new InfoTemplate("${city}, ${country}", "<a href='${link}' target='_blank'><img src='${image}' /></a>");
       var graphic = new Graphic(point, symbol, attr, infoTemplate);
       this.graphicsLayer.add(graphic);
     },
