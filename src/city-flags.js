@@ -969,7 +969,7 @@
     "lon": 15.32222222
   },
   {
-    "city": "Godthåb / Nuuk",
+    "city": "Nuuk",
     "country": "Denmark",
     "link": "//en.wikipedia.org/wiki/Godthåb_/_Nuuk",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_Nuuk.GIF/120px-Flag_of_Nuuk.GIF",
@@ -1753,7 +1753,7 @@
     "lon": 18.74027778
   },
   {
-    "city": "Calcutta",
+    "city": "Kolkata",
     "country": "India",
     "link": "//en.wikipedia.org/wiki/Kolkata",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/20th_Century_Pre-Independence_Calcutta_Flag_of_India.png/120px-20th_Century_Pre-Independence_Calcutta_Flag_of_India.png",
@@ -2449,7 +2449,7 @@
     "lon": 23.88611111
   },
   {
-    "city": "Klaipeda",
+    "city": "Klaipėda",
     "country": "Lithuania",
     "link": "//en.wikipedia.org/wiki/Klaipėda",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Klaipeda_City_Flag.svg/120px-Klaipeda_City_Flag.svg.png",
@@ -2730,7 +2730,7 @@
     "lon": 7.41666667
   },
   {
-    "city": "Ulan Bator",
+    "city": "Ulaanbaatar",
     "country": "Mongolia",
     "link": "//en.wikipedia.org/wiki/Ulaanbaatar",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mn_flag_ulaanbaatar.png/120px-Mn_flag_ulaanbaatar.png",
