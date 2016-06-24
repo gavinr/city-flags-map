@@ -868,7 +868,7 @@
     "city": "Prague",
     "country": "Czech Republic",
     "link": "//en.wikipedia.org/wiki/Prague",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Prague.svg/120px-Flag_of_Prague.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Prague_flag_with_CoA.svg/120px-Prague_flag_with_CoA.svg.png",
     "lat": 50.08333333,
     "lon": 14.41666667
   },
@@ -876,7 +876,7 @@
     "city": "Prague",
     "country": "Czech Republic",
     "link": "//en.wikipedia.org/wiki/Prague",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Prague_flag_with_CoA.svg/120px-Prague_flag_with_CoA.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Prague.svg/120px-Flag_of_Prague.svg.png",
     "lat": 50.08333333,
     "lon": 14.41666667
   },
@@ -1348,7 +1348,7 @@
     "city": "Berlin",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Berlin",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Berlin.svg/120px-Flag_of_Berlin.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Berlin_%28state%29.svg/120px-Flag_of_Berlin_%28state%29.svg.png",
     "lat": 52.51666667,
     "lon": 13.38333333
   },
@@ -1356,7 +1356,7 @@
     "city": "Berlin",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Berlin",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Berlin_%28state%29.svg/120px-Flag_of_Berlin_%28state%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Berlin.svg/120px-Flag_of_Berlin.svg.png",
     "lat": 52.51666667,
     "lon": 13.38333333
   },
@@ -1556,7 +1556,7 @@
     "city": "Munich",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Munich",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Munich_%28lozengy%29.svg/120px-Flag_of_Munich_%28lozengy%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Munich_%28striped%29.svg/120px-Flag_of_Munich_%28striped%29.svg.png",
     "lat": 48.13333333,
     "lon": 11.56666667
   },
@@ -1564,7 +1564,7 @@
     "city": "Munich",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Munich",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Munich_%28striped%29.svg/120px-Flag_of_Munich_%28striped%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Munich_%28lozengy%29.svg/120px-Flag_of_Munich_%28lozengy%29.svg.png",
     "lat": 48.13333333,
     "lon": 11.56666667
   },
@@ -1572,7 +1572,7 @@
     "city": "Nuremberg",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Nuremberg",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/N%C3%BCrnberg_flag.jpg/120px-N%C3%BCrnberg_flag.jpg",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_Nuremberg.svg/120px-Flag_of_Nuremberg.svg.png",
     "lat": 49.45,
     "lon": 11.08333333
   },
@@ -1580,7 +1580,7 @@
     "city": "Nuremberg",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Nuremberg",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_Nuremberg.svg/120px-Flag_of_Nuremberg.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/N%C3%BCrnberg_flag.jpg/120px-N%C3%BCrnberg_flag.jpg",
     "lat": 49.45,
     "lon": 11.08333333
   },
@@ -2132,7 +2132,7 @@
     "city": "Venice",
     "country": "Italy",
     "link": "//en.wikipedia.org/wiki/Venice",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Republic_of_Venice.svg/120px-Flag_of_Republic_of_Venice.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Most_Serene_Republic_of_Venice.svg/120px-Flag_of_Most_Serene_Republic_of_Venice.svg.png",
     "lat": 45.4375,
     "lon": 12.33583333
   },
@@ -2140,7 +2140,7 @@
     "city": "Venice",
     "country": "Italy",
     "link": "//en.wikipedia.org/wiki/Venice",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Most_Serene_Republic_of_Venice.svg/120px-Flag_of_Most_Serene_Republic_of_Venice.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Republic_of_Venice.svg/120px-Flag_of_Republic_of_Venice.svg.png",
     "lat": 45.4375,
     "lon": 12.33583333
   },
@@ -6444,5 +6444,605 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Harare.svg/120px-Flag_of_Harare.svg.png",
     "lat": -17.86388889,
     "lon": 31.02972222
-  }
+  },
+  {
+    "city": "Chachapoyas",
+    "country": "Peru",
+    "link": "//en.wikipedia.org/wiki/Chachapoyas,_Peru",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Chachapoyas.svg/120px-Flag_of_Chachapoyas.svg.png",
+    "lat": -6.216667,
+    "lon": -77.85
+  },
+  {
+      "city": "Tighina (Bender)",
+      "country": "Moldova",
+      "link": "//en.wikipedia.org/wiki/Bender,_Moldova",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Bendery-Flag-2003b.png/120px-Bendery-Flag-2003b.png",
+      "lat": 46.83333333,
+      "lon": 29.48333333
+    },
+    {
+      "city": "Florești",
+      "country": "Moldova",
+      "link": "//en.wikipedia.org/wiki/Florești,_Moldova",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Drapel_or_Floresti.jpg/120px-Drapel_or_Floresti.jpg",
+      "lat": 47.89333333,
+      "lon": 28.30138889
+    },
+    {
+      "city": "Samara",
+      "country": "Russia",
+      "link": "//en.wikipedia.org/wiki/Samara,_Russia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Flag_of_Samara.svg/120px-Flag_of_Samara.svg.png",
+      "lat": 53.20277778,
+      "lon": 50.14083333
+    },
+    {
+      "city": "St. Petersburg",
+      "country": "Russia",
+      "link": "//en.wikipedia.org/wiki/Saint_Petersburg",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Saint_Petersburg_Russia.svg/120px-Flag_of_Saint_Petersburg_Russia.svg.png",
+      "lat": 59.95,
+      "lon": 30.3
+    },
+    {
+      "city": "Shuya",
+      "country": "Russia",
+      "link": "//en.wikipedia.org/wiki/Shuya_River_(Karelia)",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Flag_of_Shuya_%28Ivanovo_oblast%29.svg/120px-Flag_of_Shuya_%28Ivanovo_oblast%29.svg.png",
+      "lat": 61.8785,
+      "lon": 34.2965
+    },
+    {
+      "city": "Tula",
+      "country": "Russia",
+      "link": "//en.wikipedia.org/wiki/Tula,_Russia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Flag_of_Tula.png/120px-Flag_of_Tula.png",
+      "lat": 54.2,
+      "lon": 37.61666667
+    },
+    {
+      "city": "Vladimir",
+      "country": "Russia",
+      "link": "//en.wikipedia.org/wiki/Vladimir,_Russia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Flag_of_Vladimir.png/120px-Flag_of_Vladimir.png",
+      "lat": 56.13333333,
+      "lon": 40.41666667
+    },
+    {
+      "city": "LuhanskLugansk",
+      "country": "Ukraine",
+      "link": "//en.wikipedia.org/wiki/Luhansk",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Lugansk1.png/120px-Lugansk1.png",
+      "lat": 48.56666667,
+      "lon": 39.3
+    },
+    {
+      "city": "MakiivkaMakeyevka",
+      "country": "Ukraine",
+      "link": "//en.wikipedia.org/wiki/Makiivka",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Makiivka.svg/120px-Flag_of_Makiivka.svg.png",
+      "lat": 48.08333333,
+      "lon": 38.06666667
+    },
+    {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "link": "//en.wikipedia.org/wiki/Reykjavík",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_Reykjavik%2C_Iceland.svg/120px-Flag_of_Reykjavik%2C_Iceland.svg.png",
+      "lat": 64.13333333,
+      "lon": -21.93333333
+    },
+    {
+      "city": "Frøya",
+      "country": "Norway",
+      "link": "//en.wikipedia.org/wiki/Frøya,_Sør-Trøndelag",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Fr%C3%B8ya.svg/120px-Flag_of_Fr%C3%B8ya.svg.png",
+      "lat": 63.72555556,
+      "lon": 8.74416667
+    },
+    {
+      "city": "Split",
+      "country": "Croatia",
+      "link": "//en.wikipedia.org/wiki/Split,_Croatia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_the_City_of_Split.svg/120px-Flag_of_the_City_of_Split.svg.png",
+      "lat": 43.51,
+      "lon": 16.45
+    },
+    {
+      "city": "Hydra",
+      "country": "Greece",
+      "link": "//en.wikipedia.org/wiki/Hydra_(island)",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/1821_Flag_of_Hydra.svg/120px-1821_Flag_of_Hydra.svg.png",
+      "lat": 37.35,
+      "lon": 23.46666667
+    },
+    {
+      "city": "Thessalonica",
+      "country": "Greece",
+      "link": "//en.wikipedia.org/wiki/Thessaloniki",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Thessaloniki.svg/120px-Flag_of_Thessaloniki.svg.png",
+      "lat": 40.65,
+      "lon": 22.9
+    },
+    {
+      "city": "Arad",
+      "country": "Romania",
+      "link": "//en.wikipedia.org/wiki/Arad,_Romania",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ROU_AR_Arad_Flag.png/120px-ROU_AR_Arad_Flag.png",
+      "lat": 46.16666667,
+      "lon": 21.31666667
+    },
+    {
+      "city": "Braşov",
+      "country": "Romania",
+      "link": "//en.wikipedia.org/wiki/Brașov",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/ROU_BV_Brasov_Flag1.png/120px-ROU_BV_Brasov_Flag1.png",
+      "lat": 45.66666667,
+      "lon": 25.61666667
+    },
+    {
+      "city": "Vatican",
+      "country": "Vatican",
+      "link": "//en.wikipedia.org/wiki/Vatican_City",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/120px-Flag_of_the_Vatican_City.svg.png",
+      "lat": 41.9,
+      "lon": 12.45
+    },
+    {
+      "city": "Dunkerque",
+      "country": "France",
+      "link": "//en.wikipedia.org/wiki/Dunkirk",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Dunkirk.svg/120px-Flag_of_Dunkirk.svg.png",
+      "lat": 51.0383,
+      "lon": 2.3775
+    },
+    {
+      "city": "Frankfurt am Main",
+      "country": "Germany",
+      "link": "//en.wikipedia.org/wiki/Frankfurt",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flag_of_Frankfurt_am_Main.svg/120px-Flag_of_Frankfurt_am_Main.svg.png",
+      "lat": 50.11666667,
+      "lon": 8.68333333
+    },
+    {
+      "city": "AberdeenScotland",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/Aberdeen",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Aberdeen.svg/120px-Flag_of_Aberdeen.svg.png",
+      "lat": 57.1526,
+      "lon": -2.11
+    },
+    {
+      "city": "BelfastNorthern Ireland",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/Belfast",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Belfast.svg/120px-Flag_of_Belfast.svg.png",
+      "lat": 54.597,
+      "lon": -5.93
+    },
+    {
+      "city": "BirminghamEngland",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/Birmingham",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Flag_of_Birmingham.svg/120px-Flag_of_Birmingham.svg.png",
+      "lat": 52.48305556,
+      "lon": -1.89361111
+    },
+    {
+      "city": "CardiffWales",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/Cardiff",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Flag_of_Cardiff.svg/120px-Flag_of_Cardiff.svg.png",
+      "lat": 51.48333333,
+      "lon": -3.18333333
+    },
+    {
+      "city": "DurhamEngland",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/Durham,_England",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Durham.svg/120px-Flag_of_Durham.svg.png",
+      "lat": 54.77610016,
+      "lon": -1.5733
+    },
+    {
+      "city": "EdinburghScotland",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/Edinburgh",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Flag_of_Edinburgh.svg/120px-Flag_of_Edinburgh.svg.png",
+      "lat": 55.95305556,
+      "lon": -3.18888889
+    },
+    {
+      "city": "LincolnEngland",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/Lincoln,_England",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Lincoln.svg/120px-Flag_of_Lincoln.svg.png",
+      "lat": 53.23272,
+      "lon": -0.537661
+    },
+    {
+      "city": "LondonEngland",
+      "country": "Great Britain and Northern Ireland",
+      "link": "//en.wikipedia.org/wiki/London",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_the_City_of_London.svg/120px-Flag_of_the_City_of_London.svg.png",
+      "lat": 51.50722222,
+      "lon": -0.1275
+    },
+    {
+      "city": "Hague",
+      "country": "Netherlands",
+      "link": "//en.wikipedia.org/wiki/The_Hague",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flag_of_The_Hague_%28variant%29.svg/120px-Flag_of_The_Hague_%28variant%29.svg.png",
+      "lat": 52.08333333,
+      "lon": 4.31666667
+    },
+    {
+      "city": "Aveiro",
+      "country": "Portugal",
+      "link": "//en.wikipedia.org/wiki/Aveiro,_Portugal",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pt-avr1.png/90px-Pt-avr1.png",
+      "lat": 40.63333333,
+      "lon": -8.65
+    },
+    {
+      "city": "Barreiro",
+      "country": "Portugal",
+      "link": "//en.wikipedia.org/wiki/Barreiro,_Portugal",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pt-brr3.png/90px-Pt-brr3.png",
+      "lat": 38.66666667,
+      "lon": -9.06666667
+    },
+    {
+      "city": "Beja",
+      "country": "Portugal",
+      "link": "//en.wikipedia.org/wiki/Beja,_Portugal",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pt-bja1.png/90px-Pt-bja1.png",
+      "lat": 38.03333282,
+      "lon": -7.88333321
+    },
+    {
+      "city": "Bragança",
+      "country": "Portugal",
+      "link": "//en.wikipedia.org/wiki/Bragança,_Portugal",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Pt-bgc1.png/90px-Pt-bgc1.png",
+      "lat": 41.80666733,
+      "lon": -6.75888872
+    },
+    {
+      "city": "Faro",
+      "country": "Portugal",
+      "link": "//en.wikipedia.org/wiki/Faro,_Portugal",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Pt-far1.png/120px-Pt-far1.png",
+      "lat": 37.03333282,
+      "lon": -7.91666651
+    },
+    {
+      "city": "Santarém",
+      "country": "Portugal",
+      "link": "//en.wikipedia.org/wiki/Santarém,_Portugal",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pt-str1.png/90px-Pt-str1.png",
+      "lat": 39.23333333,
+      "lon": -8.68333333
+    },
+    {
+      "city": "Cartagena",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Cartagena,_Spain",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/BanderaCartagena.png/120px-BanderaCartagena.png",
+      "lat": 37.6,
+      "lon": -0.98333333
+    },
+    {
+      "city": "Córdoba",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Córdoba,_Andalusia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_C%C3%B3rdoba%2C_Spain.svg/120px-Flag_of_C%C3%B3rdoba%2C_Spain.svg.png",
+      "lat": 37.88333333,
+      "lon": -4.76666667
+    },
+    {
+      "city": "Jaén",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Jaén,_Spain",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bandera_Ja%C3%A9n.svg/120px-Bandera_Ja%C3%A9n.svg.png",
+      "lat": 37.76666667,
+      "lon": -3.77111111
+    },
+    {
+      "city": "Jerez",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Flag_of_Jerez.svg/120px-Flag_of_Jerez.svg.png",
+      "lat": 36.7,
+      "lon": -6.11666667
+    },
+    {
+      "city": "León",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Province_of_León",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandera_de_Le%C3%B3n_%28ciudad%29.svg/120px-Bandera_de_Le%C3%B3n_%28ciudad%29.svg.png",
+      "lat": 42.66666667,
+      "lon": -6
+    },
+    {
+      "city": "Santander",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Santander,_Spain",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Santander.svg/120px-Santander.svg.png",
+      "lat": 43.46277778,
+      "lon": -3.805
+    },
+    {
+      "city": "Saragossa",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Zaragoza",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bandera_de_Zaragoza.svg/120px-Bandera_de_Zaragoza.svg.png",
+      "lat": 41.65,
+      "lon": -0.88333333
+    },
+    {
+      "city": "Toledo",
+      "country": "Spain",
+      "link": "//en.wikipedia.org/wiki/Toledo,_Spain",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bandera_de_Toledo.svg/120px-Bandera_de_Toledo.svg.png",
+      "lat": 39.85666667,
+      "lon": -4.02444444
+    },
+    {
+      "city": "CalgaryAlberta",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Calgary",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Calgary%2C_Alberta.svg/120px-Flag_of_Calgary%2C_Alberta.svg.png",
+      "lat": 51.05,
+      "lon": -114.06666667
+    },
+    {
+      "city": "EdmontonAlberta",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Edmonton",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+      "lat": 53.53333282,
+      "lon": -113.5
+    },
+    {
+      "city": "GuelphOntario",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Guelph",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/39/Flag_of_Guelph.svg/120px-Flag_of_Guelph.svg.png",
+      "lat": 43.55,
+      "lon": -80.25
+    },
+    {
+      "city": "HalifaxNova Scotia",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Halifax,_Nova_Scotia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+      "lat": 44.64777778,
+      "lon": -63.57138889
+    },
+    {
+      "city": "Hamilton",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Hamilton,_Ontario",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Hamilton.svg/120px-Flag_of_Hamilton.svg.png",
+      "lat": 43.25,
+      "lon": -79.86666667
+    },
+    {
+      "city": "LavalQuebec",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Laval,_Quebec",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Laval%2C_Quebec.svg/120px-Flag_of_Laval%2C_Quebec.svg.png",
+      "lat": 45.58333333,
+      "lon": -73.75
+    },
+    {
+      "city": "LethbridgeAlberta",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Lethbridge",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_Lethbridge.svg/120px-Flag_of_Lethbridge.svg.png",
+      "lat": 49.69416667,
+      "lon": -112.83277778
+    },
+    {
+      "city": "LévisQuebec",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Lévis,_Quebec",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Levis.svg/120px-Flag_of_Levis.svg.png",
+      "lat": 46.8,
+      "lon": -71.18333333
+    },
+    {
+      "city": "MontrealQuebec",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Montreal",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Montreal.svg/120px-Flag_of_Montreal.svg.png",
+      "lat": 45.5,
+      "lon": -73.56666667
+    },
+    {
+      "city": "OttawaOntario",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Ottawa",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Ottawa%2C_Ontario.svg/120px-Flag_of_Ottawa%2C_Ontario.svg.png",
+      "lat": 45.41666667,
+      "lon": -75.68333333
+    },
+    {
+      "city": "Prince GeorgeBritish Columbia",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Prince_George,_British_Columbia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Prince_George%2C_BC.svg/120px-Flag_of_Prince_George%2C_BC.svg.png",
+      "lat": 53.91694444,
+      "lon": -122.74944444
+    },
+    {
+      "city": "Quebec CityQuebec",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Quebec_City",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_Quebec_City.svg/120px-Flag_of_Quebec_City.svg.png",
+      "lat": 46.81666667,
+      "lon": -71.21666667
+    },
+    {
+      "city": "Surrey",
+      "country": "Canada",
+      "link": "//en.wikipedia.org/wiki/Surrey",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+      "lat": 51.25,
+      "lon": -0.41666666
+    },
+    {
+      "city": "Buenos AiresArgentina",
+      "country": "Argentina",
+      "link": "//en.wikipedia.org/wiki/Buenos_Aires",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Bandera_de_la_Ciudad_de_Buenos_Aires.svg/120px-Bandera_de_la_Ciudad_de_Buenos_Aires.svg.png",
+      "lat": -34.60333333,
+      "lon": -58.38166667
+    },
+    {
+      "city": "Rosario",
+      "country": "Argentina",
+      "link": "//en.wikipedia.org/wiki/Rosario,_Santa_Fe",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bandera_de_la_Ciudad_de_Rosario.svg/120px-Bandera_de_la_Ciudad_de_Rosario.svg.png",
+      "lat": -32.95,
+      "lon": -60.66666667
+    },
+    {
+      "city": "Concepción",
+      "country": "Chile",
+      "link": "//en.wikipedia.org/wiki/Concepción,_Chile",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Concepcion%2C_Chile.svg/120px-Flag_of_Concepcion%2C_Chile.svg.png",
+      "lat": -36.82819366,
+      "lon": -73.05136871
+    },
+    {
+      "city": "La Serena",
+      "country": "Chile",
+      "link": "//en.wikipedia.org/wiki/La_Serena,_Chile",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_La_Serena%2C_Chile.svg/120px-Flag_of_La_Serena%2C_Chile.svg.png",
+      "lat": -29.89999962,
+      "lon": -71.25
+    },
+    {
+      "city": "Maipú",
+      "country": "Chile",
+      "link": "//en.wikipedia.org/wiki/Maipú,_Chile",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Maipu%2C_Chile.svg/120px-Flag_of_Maipu%2C_Chile.svg.png",
+      "lat": -33.51666667,
+      "lon": -70.76666667
+    },
+    {
+      "city": "Cartagena de Indias",
+      "country": "Colombia",
+      "link": "//en.wikipedia.org/wiki/Cartagena,_Colombia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Cartagena.svg/120px-Flag_of_Cartagena.svg.png",
+      "lat": 10.4,
+      "lon": -75.5
+    },
+    {
+      "city": "Honda",
+      "country": "Colombia",
+      "link": "//en.wikipedia.org/wiki/Honda,_Tolima",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Honda_%28Tolima%29.svg/120px-Flag_of_Honda_%28Tolima%29.svg.png",
+      "lat": 5.20416667,
+      "lon": -74.74166667
+    },
+    {
+      "city": "Santa Cruz de Mompox",
+      "country": "Colombia",
+      "link": "//en.wikipedia.org/wiki/Santa_Cruz_de_Mompox",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_Santa_Cruz_de_Mompox_%28Bol%C3%ADvar%29.svg/120px-Flag_of_Santa_Cruz_de_Mompox_%28Bol%C3%ADvar%29.svg.png",
+      "lat": 9.23333333,
+      "lon": -74.41666667
+    },
+    {
+      "city": "Ocaña, Norte de Santander",
+      "country": "Colombia",
+      "link": "//en.wikipedia.org/wiki/Ocaña,_Norte_de_Santander",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Oca%C3%B1a_%28Norte_de_Santander%29.svg/120px-Flag_of_Oca%C3%B1a_%28Norte_de_Santander%29.svg.png",
+      "lat": 8.23333333,
+      "lon": -73.35
+    },
+    {
+      "city": "Pasto",
+      "country": "Colombia",
+      "link": "//en.wikipedia.org/wiki/Pasto,_Colombia",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_San_Juan_de_Pasto.svg/218px-Flag_of_San_Juan_de_Pasto.svg.png",
+      "lat": 1.20777774,
+      "lon": -77.27722168
+    },
+    {
+      "city": "Cuenca",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Cuenca,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Cuenca%2C_Ecuador.svg/120px-Flag_of_Cuenca%2C_Ecuador.svg.png",
+      "lat": -2.89916667,
+      "lon": -79.01527778
+    },
+    {
+      "city": "Durán",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Durán,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Dur%C3%A1n.svg/120px-Flag_of_Dur%C3%A1n.svg.png",
+      "lat": -2.17333333,
+      "lon": -79.83111111
+    },
+    {
+      "city": "Manta",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Manta,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Bandera_de_Manta.png/120px-Bandera_de_Manta.png",
+      "lat": -0.95002222,
+      "lon": -80.7162
+    },
+    {
+      "city": "Loja",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Loja,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Loja.svg/120px-Flag_of_Loja.svg.png",
+      "lat": -3.98333333,
+      "lon": -79.2
+    },
+    {
+      "city": "Ambato Canton",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Ambato,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bandera_Prov%C3%ADncia_Tungurahua.svg/120px-Bandera_Prov%C3%ADncia_Tungurahua.svg.png",
+      "lat": -1.24166667,
+      "lon": -78.61972222
+    },
+    {
+      "city": "Esmeraldas",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Esmeraldas,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Bandera_Prov%C3%ADncia_Esmeraldas.svg/120px-Bandera_Prov%C3%ADncia_Esmeraldas.svg.png",
+      "lat": 0.95,
+      "lon": -79.66666667
+    },
+    {
+      "city": "Quevedo",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Quevedo,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bandera_de_Quevedo.svg/120px-Bandera_de_Quevedo.svg.png",
+      "lat": -1.03333333,
+      "lon": -79.45
+    },
+    {
+      "city": "Milagro",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Milagro,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Milagro.svg/120px-Flag_of_Milagro.svg.png",
+      "lat": -2.13472222,
+      "lon": -79.58722222
+    },
+    {
+      "city": "Ibarra",
+      "country": "Ecuador",
+      "link": "//en.wikipedia.org/wiki/Ibarra,_Ecuador",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Bandera_de_Ibarra.png/120px-Bandera_de_Ibarra.png",
+      "lat": 0.36267778,
+      "lon": -78.13066667
+    }
 ]
