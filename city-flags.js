@@ -2228,6 +2228,14 @@
     "city": "Holon",
     "country": "Israel",
     "link": "//en.wikipedia.org/wiki/Holon",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Holon_Version2.svg/120px-Flag_of_Holon_Version2.svg.png",
+    "lat": 32.01666667,
+    "lon": 34.76666667
+  },
+  {
+    "city": "Holon",
+    "country": "Israel",
+    "link": "//en.wikipedia.org/wiki/Holon",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Flag_of_Holon_Version3.svg/120px-Flag_of_Holon_Version3.svg.png",
     "lat": 32.01666667,
     "lon": 34.76666667
@@ -2237,14 +2245,6 @@
     "country": "Israel",
     "link": "//en.wikipedia.org/wiki/Holon",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Holon_Version1.svg/120px-Flag_of_Holon_Version1.svg.png",
-    "lat": 32.01666667,
-    "lon": 34.76666667
-  },
-  {
-    "city": "Holon",
-    "country": "Israel",
-    "link": "//en.wikipedia.org/wiki/Holon",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Holon_Version2.svg/120px-Flag_of_Holon_Version2.svg.png",
     "lat": 32.01666667,
     "lon": 34.76666667
   },
@@ -5204,6 +5204,15 @@
     "lon": -104.821363
   },
   {
+    "city": "Columbia",
+    "state": "Missouri",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Columbia,_Missouri",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Columbia_Flag_FINAL.jpg/220px-Columbia_Flag_FINAL.jpg",
+    "lat": 38.951389,
+    "lon": -92.328333
+  },
+  {
     "city": "Columbus",
     "state": "Ohio",
     "country": "USA",
@@ -5526,6 +5535,15 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_placeholder.svg/180px-Flag_placeholder.svg.png",
     "lat": 47.925257,
     "lon": -97.032855
+  },
+  {
+    "city": "Golden",
+    "state": "Colorado",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Golden,_Colorado",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/City_of_Golden_Colorado_Flag.jpg/220px-City_of_Golden_Colorado_Flag.jpg",
+    "lat": 39.746944,
+    "lon": -105.210833
   },
   {
     "city": "Greenbelt",
@@ -6617,6 +6635,15 @@
     "lon": -83.555212
   },
   {
+    "city": "Harrison",
+    "state": "Ohio",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Harrison,_Ohio",
+    "image": "//portlandflag.files.wordpress.com/2016/05/harrison-oh-new-flag-1.jpg",
+    "lat": 39.258056,
+    "lon": -84.804444
+  },
+  {
     "city": "Topeka",
     "state": "Kansas",
     "country": "USA",
@@ -6714,6 +6741,15 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Washington%2C_New_York.png/180px-Flag_of_Washington%2C_New_York.png",
     "lat": 41.78666,
     "lon": -73.681389
+  },
+  {
+    "city": "Bellingham",
+    "state": "Washington",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Bellingham,_Washington",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bellingham_Flag.svg/220px-Bellingham_Flag.svg.png",
+    "lat": 48.750278,
+    "lon": -122.475
   },
   {
     "city": "Watsonville",
