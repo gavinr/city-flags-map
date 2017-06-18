@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 			dev: {
 				src: 'src/city-flags.js',
 				dest: 'src/city-flags.js',
-				sortKeys: ['country', 'city'],
+				sortKeys: ['country', 'city', 'link'],
 			}
 		},
 		connect: {

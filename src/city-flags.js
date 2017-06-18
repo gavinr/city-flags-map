@@ -5635,21 +5635,21 @@
   },
   {
     "city": "Lincoln",
-    "state": "Nebraska",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Lincoln,_Nebraska",
-    "image": "//upload.wikimedia.org/wikipedia/en/thumb/5/5a/Flag_of_the_City_of_Lincoln%2C_Nebraska.jpg/218px-Flag_of_the_City_of_Lincoln%2C_Nebraska.jpg",
-    "lat": 40.825763,
-    "lon": -96.685198
-  },
-  {
-    "city": "Lincoln",
     "state": "Maine",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Lincoln,_Maine",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Lincoln%2C_Maine.png/180px-Flag_of_Lincoln%2C_Maine.png",
     "lat": 45.36223,
     "lon": -68.505001
+  },
+  {
+    "city": "Lincoln",
+    "state": "Nebraska",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Lincoln,_Nebraska",
+    "image": "//upload.wikimedia.org/wikipedia/en/thumb/5/5a/Flag_of_the_City_of_Lincoln%2C_Nebraska.jpg/218px-Flag_of_the_City_of_Lincoln%2C_Nebraska.jpg",
+    "lat": 40.825763,
+    "lon": -96.685198
   },
   {
     "city": "Little Canada",
@@ -6526,6 +6526,15 @@
   },
   {
     "city": "Washington",
+    "state": "D.C.",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Washington,_D.C.",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Washington%2C_D.C..svg/180px-Flag_of_Washington%2C_D.C..svg.png",
+    "lat": 38.907192,
+    "lon": -77.036871
+  },
+  {
+    "city": "Washington",
     "state": "Maine",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Washington,_Maine",
@@ -6541,15 +6550,6 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Washington%2C_New_York.png/180px-Flag_of_Washington%2C_New_York.png",
     "lat": 41.78666,
     "lon": -73.681389
-  },
-  {
-    "city": "Washington",
-    "state": "D.C.",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Washington,_D.C.",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Washington%2C_D.C..svg/180px-Flag_of_Washington%2C_D.C..svg.png",
-    "lat": 38.907192,
-    "lon": -77.036871
   },
   {
     "city": "Watsonville",
