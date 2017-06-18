@@ -6635,6 +6635,15 @@
     "lon": -83.555212
   },
   {
+    "city": "Harrison",
+    "state": "Ohio",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Harrison,_Ohio",
+    "image": "//portlandflag.files.wordpress.com/2016/05/harrison-oh-new-flag-1.jpg",
+    "lat": 39.258056,
+    "lon": -84.804444
+  },
+  {
     "city": "Topeka",
     "state": "Kansas",
     "country": "USA",
