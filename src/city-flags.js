@@ -203,7 +203,7 @@
     "city": "Brussels",
     "country": "Belgium",
     "link": "//en.wikipedia.org/wiki/Brussels",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Brussels-Capital_Region.svg/218px-Flag_of_the_Brussels-Capital_Region.svg.png",
     "lat": 50.85,
     "lon": 4.35
   },
@@ -364,7 +364,7 @@
     "city": "Halifax",
     "country": "Canada",
     "link": "//en.wikipedia.org/wiki/Halifax,_Nova_Scotia",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/en/thumb/e/e0/Halifax_Flag.svg/220px-Halifax_Flag.svg.png",
     "lat": 44.64777778,
     "lon": -63.57138889
   },
@@ -441,18 +441,10 @@
     "lon": -104.60666667
   },
   {
-    "city": "Saint John",
-    "country": "Canada",
-    "link": "//en.wikipedia.org/wiki/Saint_John,_New_Brunswick",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 45.28055556,
-    "lon": -66.07611111
-  },
-  {
     "city": "Surrey",
-    "country": "Canada",
+    "country": "England",
     "link": "//en.wikipedia.org/wiki/Surrey",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Surrey.svg/220px-Surrey.svg.png",
     "lat": 51.25,
     "lon": -0.41666666
   },
@@ -511,14 +503,6 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_La_Serena%2C_Chile.svg/120px-Flag_of_La_Serena%2C_Chile.svg.png",
     "lat": -29.89999962,
     "lon": -71.25
-  },
-  {
-    "city": "Las Condes",
-    "country": "Chile",
-    "link": "//en.wikipedia.org/wiki/Las_Condes",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": -33.41166667,
-    "lon": -70.55
   },
   {
     "city": "Maipú",
@@ -844,7 +828,7 @@
     "city": "Slavonski Brod",
     "country": "Croatia",
     "link": "//en.wikipedia.org/wiki/Slavonski_Brod",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vlag_slavonski_brod.gif/220px-Vlag_slavonski_brod.gif",
     "lat": 45.16666667,
     "lon": 18.01666667
   },
@@ -1353,14 +1337,6 @@
     "lon": 24.9375
   },
   {
-    "city": "Tampere",
-    "country": "Finland",
-    "link": "//en.wikipedia.org/wiki/Tampere",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 61.5,
-    "lon": 23.76666667
-  },
-  {
     "city": "Turku",
     "country": "Finland",
     "link": "//en.wikipedia.org/wiki/Turku",
@@ -1391,22 +1367,6 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Biarritz_flag.svg/120px-Biarritz_flag.svg.png",
     "lat": 43.48,
     "lon": -1.56
-  },
-  {
-    "city": "Bois-Colombes",
-    "country": "France",
-    "link": "//en.wikipedia.org/wiki/Bois-Colombes",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 48.9175,
-    "lon": 2.2683
-  },
-  {
-    "city": "Bordeaux",
-    "country": "France",
-    "link": "//en.wikipedia.org/wiki/Bordeaux",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 44.84,
-    "lon": -0.58
   },
   {
     "city": "Calais",
@@ -1673,14 +1633,6 @@
     "lon": 7.46666667
   },
   {
-    "city": "Dresden",
-    "country": "Germany",
-    "link": "//en.wikipedia.org/wiki/Dresden",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 51.03333333,
-    "lon": 13.73333333
-  },
-  {
     "city": "Duisburg",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Duisburg",
@@ -1785,14 +1737,6 @@
     "lon": 7.59777778
   },
   {
-    "city": "Krefeld",
-    "country": "Germany",
-    "link": "//en.wikipedia.org/wiki/Krefeld",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 51.33333333,
-    "lon": 6.56666667
-  },
-  {
     "city": "Leipzig",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Leipzig",
@@ -1828,7 +1772,7 @@
     "city": "Munich",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Munich",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Munich_%28lozengy%29.svg/120px-Flag_of_Munich_%28lozengy%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Munich_%28striped%29.svg/120px-Flag_of_Munich_%28striped%29.svg.png",
     "lat": 48.13333333,
     "lon": 11.56666667
   },
@@ -1836,7 +1780,7 @@
     "city": "Munich",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Munich",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Munich_%28striped%29.svg/120px-Flag_of_Munich_%28striped%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Munich_%28lozengy%29.svg/120px-Flag_of_Munich_%28lozengy%29.svg.png",
     "lat": 48.13333333,
     "lon": 11.56666667
   },
@@ -1873,28 +1817,12 @@
     "lon": 12.13333333
   },
   {
-    "city": "Schwangau",
-    "country": "Germany",
-    "link": "//en.wikipedia.org/wiki/Schwangau",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 47.58333333,
-    "lon": 10.73333333
-  },
-  {
     "city": "Schwerin",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Schwerin",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Flagge_Schwerin.png/120px-Flagge_Schwerin.png",
     "lat": 53.63333333,
     "lon": 11.41666667
-  },
-  {
-    "city": "Stuttgart",
-    "country": "Germany",
-    "link": "//en.wikipedia.org/wiki/Stuttgart",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 48.78333333,
-    "lon": 9.18333333
   },
   {
     "city": "Wiesbaden",
@@ -2255,14 +2183,6 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Qiryat_Gat.svg/120px-Flag_of_Qiryat_Gat.svg.png",
     "lat": 31.60611111,
     "lon": 34.77166667
-  },
-  {
-    "city": "Nazareth",
-    "country": "Israel",
-    "link": "//en.wikipedia.org/wiki/Nazareth",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 32.70194444,
-    "lon": 35.30333333
   },
   {
     "city": "Netanya",
@@ -3586,14 +3506,6 @@
     "lon": 19.01666667
   },
   {
-    "city": "Kielce",
-    "country": "Poland",
-    "link": "//en.wikipedia.org/wiki/Kielce",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 50.8725,
-    "lon": 20.63194444
-  },
-  {
     "city": "Kraków",
     "country": "Poland",
     "link": "//en.wikipedia.org/wiki/Kraków",
@@ -4274,14 +4186,6 @@
     "lon": 20.91111111
   },
   {
-    "city": "Kraljevo",
-    "country": "Serbia",
-    "link": "//en.wikipedia.org/wiki/Kraljevo",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
-    "lat": 43.72361111,
-    "lon": 20.6875
-  },
-  {
     "city": "Niš",
     "country": "Serbia",
     "link": "//en.wikipedia.org/wiki/Niš",
@@ -4959,6 +4863,15 @@
     "lon": -74.114309
   },
   {
+    "city": "Bellingham",
+    "state": "Washington",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Bellingham,_Washington",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bellingham_Flag.svg/220px-Bellingham_Flag.svg.png",
+    "lat": 48.750278,
+    "lon": -122.475
+  },
+  {
     "city": "Beloit",
     "state": "Wisconsin",
     "country": "USA",
@@ -5463,6 +5376,15 @@
     "lon": -118.255075
   },
   {
+    "city": "Golden",
+    "state": "Colorado",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Golden,_Colorado",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/City_of_Golden_Colorado_Flag.jpg/220px-City_of_Golden_Colorado_Flag.jpg",
+    "lat": 39.746944,
+    "lon": -105.210833
+  },
+  {
     "city": "Goldfield",
     "state": "Colorado",
     "country": "USA",
@@ -5479,15 +5401,6 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_placeholder.svg/180px-Flag_placeholder.svg.png",
     "lat": 47.925257,
     "lon": -97.032855
-  },
-  {
-    "city": "Golden",
-    "state": "Colorado",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Golden,_Colorado",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/City_of_Golden_Colorado_Flag.jpg/220px-City_of_Golden_Colorado_Flag.jpg",
-    "lat": 39.746944,
-    "lon": -105.210833
   },
   {
     "city": "Greenbelt",
@@ -5533,6 +5446,15 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Flag_of_Harlingen%2C_Texas.PNG/180px-Flag_of_Harlingen%2C_Texas.PNG",
     "lat": 26.190631,
     "lon": -97.696103
+  },
+  {
+    "city": "Harrison",
+    "state": "Ohio",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Harrison,_Ohio",
+    "image": "//portlandflag.files.wordpress.com/2016/05/harrison-oh-new-flag-1.jpg",
+    "lat": 39.258056,
+    "lon": -84.804444
   },
   {
     "city": "Hialeah",
@@ -6579,15 +6501,6 @@
     "lon": -83.555212
   },
   {
-    "city": "Harrison",
-    "state": "Ohio",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Harrison,_Ohio",
-    "image": "//portlandflag.files.wordpress.com/2016/05/harrison-oh-new-flag-1.jpg",
-    "lat": 39.258056,
-    "lon": -84.804444
-  },
-  {
     "city": "Topeka",
     "state": "Kansas",
     "country": "USA",
@@ -6685,15 +6598,6 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Washington%2C_New_York.png/180px-Flag_of_Washington%2C_New_York.png",
     "lat": 41.78666,
     "lon": -73.681389
-  },
-  {
-    "city": "Bellingham",
-    "state": "Washington",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Bellingham,_Washington",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bellingham_Flag.svg/220px-Bellingham_Flag.svg.png",
-    "lat": 48.750278,
-    "lon": -122.475
   },
   {
     "city": "Watsonville",
