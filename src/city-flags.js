@@ -2228,23 +2228,7 @@
     "city": "Holon",
     "country": "Israel",
     "link": "//en.wikipedia.org/wiki/Holon",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Holon_Version2.svg/120px-Flag_of_Holon_Version2.svg.png",
-    "lat": 32.01666667,
-    "lon": 34.76666667
-  },
-  {
-    "city": "Holon",
-    "country": "Israel",
-    "link": "//en.wikipedia.org/wiki/Holon",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Flag_of_Holon_Version3.svg/120px-Flag_of_Holon_Version3.svg.png",
-    "lat": 32.01666667,
-    "lon": 34.76666667
-  },
-  {
-    "city": "Holon",
-    "country": "Israel",
-    "link": "//en.wikipedia.org/wiki/Holon",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Holon_Version1.svg/120px-Flag_of_Holon_Version1.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Flag_of_Holon_Version3.svg/199px-Flag_of_Holon_Version3.svg.png",
     "lat": 32.01666667,
     "lon": 34.76666667
   },
