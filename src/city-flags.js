@@ -2228,6 +2228,14 @@
     "city": "Holon",
     "country": "Israel",
     "link": "//en.wikipedia.org/wiki/Holon",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Holon_Version2.svg/120px-Flag_of_Holon_Version2.svg.png",
+    "lat": 32.01666667,
+    "lon": 34.76666667
+  },
+  {
+    "city": "Holon",
+    "country": "Israel",
+    "link": "//en.wikipedia.org/wiki/Holon",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Flag_of_Holon_Version3.svg/120px-Flag_of_Holon_Version3.svg.png",
     "lat": 32.01666667,
     "lon": 34.76666667
@@ -2237,14 +2245,6 @@
     "country": "Israel",
     "link": "//en.wikipedia.org/wiki/Holon",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Holon_Version1.svg/120px-Flag_of_Holon_Version1.svg.png",
-    "lat": 32.01666667,
-    "lon": 34.76666667
-  },
-  {
-    "city": "Holon",
-    "country": "Israel",
-    "link": "//en.wikipedia.org/wiki/Holon",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Holon_Version2.svg/120px-Flag_of_Holon_Version2.svg.png",
     "lat": 32.01666667,
     "lon": 34.76666667
   },
@@ -5202,6 +5202,15 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Colorado_Springs%2C_Colorado.svg/180px-Flag_of_Colorado_Springs%2C_Colorado.svg.png",
     "lat": 38.833882,
     "lon": -104.821363
+  },
+  {
+    "city": "Columbia",
+    "state": "Missouri",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Columbia,_Missouri",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Columbia_Flag_FINAL.jpg/220px-Columbia_Flag_FINAL.jpg",
+    "lat": 38.951389,
+    "lon": -92.328333
   },
   {
     "city": "Columbus",
