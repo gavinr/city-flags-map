@@ -56,14 +56,6 @@
     "lon": 16.36666667
   },
   {
-    "city": "Vienna",
-    "country": "Austria",
-    "link": "//en.wikipedia.org/wiki/Vienna",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Vienna_%28state%29.svg/120px-Flag_of_Vienna_%28state%29.svg.png",
-    "lat": 48.2,
-    "lon": 16.36666667
-  },
-  {
     "city": "Asipovichy",
     "country": "Belarus",
     "link": "//en.wikipedia.org/wiki/Asipovichy",
@@ -1852,15 +1844,7 @@
     "city": "Nuremberg",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Nuremberg",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_Nuremberg.svg/120px-Flag_of_Nuremberg.svg.png",
-    "lat": 49.45,
-    "lon": 11.08333333
-  },
-  {
-    "city": "Nuremberg",
-    "country": "Germany",
-    "link": "//en.wikipedia.org/wiki/Nuremberg",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/N%C3%BCrnberg_flag.jpg/120px-N%C3%BCrnberg_flag.jpg",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Bandera_de_N%C3%BArnberg.svg/220px-Bandera_de_N%C3%BArnberg.svg.png",
     "lat": 49.45,
     "lon": 11.08333333
   },
@@ -2636,15 +2620,7 @@
     "city": "Tokyo",
     "country": "Japan",
     "link": "//en.wikipedia.org/wiki/Tokyo",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Symbol_flag_of_Tokyo.svg/120px-Symbol_flag_of_Tokyo.svg.png",
-    "lat": 35.68333333,
-    "lon": 139.68333333
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "link": "//en.wikipedia.org/wiki/Tokyo",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokyo_Prefecture.svg/120px-Flag_of_Tokyo_Prefecture.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokyo_Prefecture.svg/218px-Flag_of_Tokyo_Prefecture.svg.png",
     "lat": 35.68333333,
     "lon": 139.68333333
   },
@@ -2684,15 +2660,7 @@
     "city": "Astana",
     "country": "Kazakhstan",
     "link": "//en.wikipedia.org/wiki/Astana",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Astana.svg/120px-Flag_of_Astana.svg.png",
-    "lat": 51.16666667,
-    "lon": 71.43333333
-  },
-  {
-    "city": "Astana",
-    "country": "Kazakhstan",
-    "link": "//en.wikipedia.org/wiki/Astana",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/New_flag_of_Astana.svg/120px-New_flag_of_Astana.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/New_flag_of_Astana.svg/220px-New_flag_of_Astana.svg.png",
     "lat": 51.16666667,
     "lon": 71.43333333
   },
@@ -3277,15 +3245,7 @@
     "city": "Venlo",
     "country": "Netherlands",
     "link": "//en.wikipedia.org/wiki/Venlo",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venlo_vlag.svg/120px-Venlo_vlag.svg.png",
-    "lat": 51.36666667,
-    "lon": 6.16666667
-  },
-  {
-    "city": "Venlo",
-    "country": "Netherlands",
-    "link": "//en.wikipedia.org/wiki/Venlo",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_Venlo%2C_Netherlands_%28until_2010%29.svg/120px-Flag_of_Venlo%2C_Netherlands_%28until_2010%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venlo_vlag.svg/218px-Venlo_vlag.svg.png",
     "lat": 51.36666667,
     "lon": 6.16666667
   },
