@@ -55,7 +55,7 @@ module.exports = function(grunt) {
 
 
 	// Default task
-	grunt.registerTask('default', ['copy', 'sort']);
+	grunt.registerTask('default', ['copy']);
 	grunt.registerTask('sort', ['json_array_sort:dev']);
 	grunt.registerTask('deploy', ['default', 'gh-pages']);
 	grunt.registerTask('serve', ['copy', 'connect']);
