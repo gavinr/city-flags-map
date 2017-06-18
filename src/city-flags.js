@@ -356,7 +356,7 @@
     "city": "Edmonton",
     "country": "Canada",
     "link": "//en.wikipedia.org/wiki/Edmonton",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_None.svg/120px-Flag_of_None.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/en/thumb/9/9f/Flag_of_Edmonton.svg/220px-Flag_of_Edmonton.svg.png",
     "lat": 53.53333282,
     "lon": -113.5
   },
