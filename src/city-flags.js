@@ -3581,15 +3581,7 @@
     "city": "Wrocław",
     "country": "Poland",
     "link": "//en.wikipedia.org/wiki/Wrocław",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Wroclaw_flag_with_arms.svg/120px-Wroclaw_flag_with_arms.svg.png",
-    "lat": 51.1,
-    "lon": 17.03333333
-  },
-  {
-    "city": "Wrocław",
-    "country": "Poland",
-    "link": "//en.wikipedia.org/wiki/Wrocław",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Wroclaw_horizontal_flag.svg/120px-Wroclaw_horizontal_flag.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Wroclaw_horizontal_flag.svg/220px-Wroclaw_horizontal_flag.svg.png",
     "lat": 51.1,
     "lon": 17.03333333
   },
