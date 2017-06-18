@@ -441,14 +441,6 @@
     "lon": -104.60666667
   },
   {
-    "city": "Surrey",
-    "country": "England",
-    "link": "//en.wikipedia.org/wiki/Surrey",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Surrey.svg/220px-Surrey.svg.png",
-    "lat": 51.25,
-    "lon": -0.41666666
-  },
-  {
     "city": "Toronto",
     "country": "Canada",
     "link": "//en.wikipedia.org/wiki/Toronto",
@@ -1279,6 +1271,14 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/City_Flag_of_Portsmouth.svg/120px-City_Flag_of_Portsmouth.svg.png",
     "lat": 50.81666667,
     "lon": -1.08333333
+  },
+  {
+    "city": "Surrey",
+    "country": "England",
+    "link": "//en.wikipedia.org/wiki/Surrey",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Surrey.svg/220px-Surrey.svg.png",
+    "lat": 51.25,
+    "lon": -0.41666666
   },
   {
     "city": "York",
@@ -6472,21 +6472,21 @@
   },
   {
     "city": "Trenton",
-    "state": "New Jersey",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Trenton,_New_Jersey",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Trenton%2C_New_Jersey.svg/180px-Flag_of_Trenton%2C_New_Jersey.svg.png",
-    "lat": 40.217053,
-    "lon": -74.742938
-  },
-  {
-    "city": "Trenton",
     "state": "Georgia",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Trenton,_Georgia",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_the_State_of_Georgia_%281956-2001%29.svg/180px-Flag_of_the_State_of_Georgia_%281956-2001%29.svg.png",
     "lat": 34.872022,
     "lon": -85.50913
+  },
+  {
+    "city": "Trenton",
+    "state": "New Jersey",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Trenton,_New_Jersey",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Trenton%2C_New_Jersey.svg/180px-Flag_of_Trenton%2C_New_Jersey.svg.png",
+    "lat": 40.217053,
+    "lon": -74.742938
   },
   {
     "city": "Tucson",
@@ -6535,21 +6535,21 @@
   },
   {
     "city": "Washington",
-    "state": "D.C.",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Washington,_D.C.",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Washington%2C_D.C..svg/180px-Flag_of_Washington%2C_D.C..svg.png",
-    "lat": 38.907192,
-    "lon": -77.036871
-  },
-  {
-    "city": "Washington",
     "state": "New York",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Washington,_New_York",
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Washington%2C_New_York.png/180px-Flag_of_Washington%2C_New_York.png",
     "lat": 41.78666,
     "lon": -73.681389
+  },
+  {
+    "city": "Washington",
+    "state": "D.C.",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Washington,_D.C.",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Washington%2C_D.C..svg/180px-Flag_of_Washington%2C_D.C..svg.png",
+    "lat": 38.907192,
+    "lon": -77.036871
   },
   {
     "city": "Watsonville",
