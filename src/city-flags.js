@@ -5537,6 +5537,15 @@
     "lon": -97.032855
   },
   {
+    "city": "Golden",
+    "state": "Colorado",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Golden,_Colorado",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/City_of_Golden_Colorado_Flag.jpg/220px-City_of_Golden_Colorado_Flag.jpg",
+    "lat": 39.746944,
+    "lon": -105.210833
+  },
+  {
     "city": "Greenbelt",
     "state": "Maryland",
     "country": "USA",
