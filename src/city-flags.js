@@ -1772,15 +1772,7 @@
     "city": "Munich",
     "country": "Germany",
     "link": "//en.wikipedia.org/wiki/Munich",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Munich_%28striped%29.svg/120px-Flag_of_Munich_%28striped%29.svg.png",
-    "lat": 48.13333333,
-    "lon": 11.56666667
-  },
-  {
-    "city": "Munich",
-    "country": "Germany",
-    "link": "//en.wikipedia.org/wiki/Munich",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Munich_%28lozengy%29.svg/120px-Flag_of_Munich_%28lozengy%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Munich_%28striped%29.svg/220px-Flag_of_Munich_%28striped%29.svg.png",
     "lat": 48.13333333,
     "lon": 11.56666667
   },
@@ -2388,15 +2380,7 @@
     "city": "Venice",
     "country": "Italy",
     "link": "//en.wikipedia.org/wiki/Venice",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Most_Serene_Republic_of_Venice.svg/120px-Flag_of_Most_Serene_Republic_of_Venice.svg.png",
-    "lat": 45.4375,
-    "lon": 12.33583333
-  },
-  {
-    "city": "Venice",
-    "country": "Italy",
-    "link": "//en.wikipedia.org/wiki/Venice",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Republic_of_Venice.svg/120px-Flag_of_Republic_of_Venice.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Republic_of_Venice.svg/220px-Flag_of_Republic_of_Venice.svg.png",
     "lat": 45.4375,
     "lon": 12.33583333
   },
