@@ -6743,6 +6743,15 @@
     "lon": -73.681389
   },
   {
+    "city": "Bellingham",
+    "state": "Washington",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Bellingham,_Washington",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bellingham_Flag.svg/220px-Bellingham_Flag.svg.png",
+    "lat": 48.750278,
+    "lon": -122.475
+  },
+  {
     "city": "Watsonville",
     "state": "California",
     "country": "USA",
