@@ -1036,15 +1036,7 @@
     "city": "Prague",
     "country": "Czech Republic",
     "link": "//en.wikipedia.org/wiki/Prague",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Prague_flag_with_CoA.svg/120px-Prague_flag_with_CoA.svg.png",
-    "lat": 50.08333333,
-    "lon": 14.41666667
-  },
-  {
-    "city": "Prague",
-    "country": "Czech Republic",
-    "link": "//en.wikipedia.org/wiki/Prague",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Prague.svg/120px-Flag_of_Prague.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Prague.svg/218px-Flag_of_Prague.svg.png",
     "lat": 50.08333333,
     "lon": 14.41666667
   },
@@ -2826,14 +2818,6 @@
     "lon": -99.133333
   },
   {
-    "city": "Mexico City",
-    "country": "Mexico",
-    "link": "//en.wikipedia.org/wiki/Mexico_City",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Mexican_Federal_District.svg/120px-Flag_of_Mexican_Federal_District.svg.png",
-    "lat": 19.43333333,
-    "lon": -99.13333333
-  },
-  {
     "city": "Anenii Noi",
     "country": "Moldova",
     "link": "//en.wikipedia.org/wiki/Anenii_Noi",
@@ -3965,15 +3949,7 @@
     "city": "Omsk",
     "country": "Russia",
     "link": "//en.wikipedia.org/wiki/Omsk",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Omsk.svg/120px-Flag_of_Omsk.svg.png",
-    "lat": 54.98333333,
-    "lon": 73.36666667
-  },
-  {
-    "city": "Omsk",
-    "country": "Russia",
-    "link": "//en.wikipedia.org/wiki/Omsk",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_Omsk_%282002%29.svg/120px-Flag_of_Omsk_%282002%29.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Omsk.svg/218px-Flag_of_Omsk.svg.png",
     "lat": 54.98333333,
     "lon": 73.36666667
   },
