@@ -25,5 +25,8 @@
     "grunt-contrib-copy": "^0.8.2",
     "grunt-gh-pages": "^1.0.0",
     "grunt-json-array-sort": "^0.1.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "^1.0.2"
   }
 }

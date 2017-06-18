@@ -29,6 +29,21 @@ module.exports = function(grunt) {
 				dest: 'src/city-flags.js',
 				sortKeys: ['country', 'city'],
 			}
+		},
+		connect: {
+			server: {
+				options: {
+					port: 9001,
+					keepalive: true,
+					base: {
+						path: 'dist',
+						options: {
+							index: 'index.htm',
+							maxAge: 300000
+						}
+					}
+				}
+			}
 		}
 	});
 
@@ -36,10 +51,13 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-gh-pages');
 	grunt.loadNpmTasks('grunt-json-array-sort');
+	grunt.loadNpmTasks('grunt-contrib-connect');
+
 
 	// Default task
 	grunt.registerTask('default', ['copy', 'sort']);
 	grunt.registerTask('sort', ['json_array_sort:dev']);
 	grunt.registerTask('deploy', ['default', 'gh-pages']);
+	grunt.registerTask('serve', ['copy', 'connect']);
 
 };
