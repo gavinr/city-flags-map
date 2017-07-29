@@ -8,29 +8,30 @@ define([
   'dojo/on',
 
   'esri/geometry/Point',
-  'esri/graphic',
-  'esri/InfoTemplate',
+  'esri/Graphic',
+  'esri/PopupTemplate',
   'esri/layers/GraphicsLayer',
-  'esri/map',
+  'esri/Map',
   'esri/request',
   'esri/symbols/PictureMarkerSymbol',
 ], function(
   _WidgetBase, _TemplatedMixin,
   declare,
   lang, dom, on,
-  Point, Graphic, InfoTemplate, GraphicsLayer, Map, esriRequest, PictureMarkerSymbol
+  Point, Graphic, PopupTemplate, GraphicsLayer, Map, esriRequest, PictureMarkerSymbol
 ) {
   return declare([_WidgetBase, _TemplatedMixin], {
     templateString: '<div class="map-container"></div>',
     // Widget LifeCycle
-    postCreate: function() {
+    postCreate: () => {
+      console.log('here');
       this.inherited(arguments);
       // Create the map
-      var map = new Map(this.domNode, {
-        basemap: "topo",
-        center: [0, 0],
-        zoom: 3
+      const map = new Map(this.domNode, {
+        basemap: 'topo',
+        center: [0, 0]
       });
+
       this.set('map', map);
 
       this.graphicsLayer = new GraphicsLayer({
@@ -42,55 +43,56 @@ define([
         url: 'city-flags.js',
         'handleAs': 'json'
       }).then(lang.hitch(this, function(res) {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach((item) => {
           this.addFlagGraphic(item, 22);
-        }));
-        on(map, 'zoom-end', lang.hitch(this, function(evt) {
+        });
+        on(map, 'zoom-end', (evt) => {
           this.zoomChangeHandler(evt, res);
-        }));
-      }), function(err) {
-        console.log("Error querying data.");
+        });
+      }), () => {
+        console.error('Error querying data.');
       });
     },
-    addFlagGraphic: function(cityObj, width) {
-      var height = width * 0.6;
-      var point = new Point(cityObj.lon, cityObj.lat);
-      var symbol = new PictureMarkerSymbol(cityObj.image, width, height);
+    addFlagGraphic: (cityObj, width) => {
+      const height = width * 0.6;
+      const point = new Point(cityObj.lon, cityObj.lat);
+      const symbol = new PictureMarkerSymbol(cityObj.image, width, height);
 
-      var attr = {
+      const attr = {
         'city': cityObj.city,
         'country': cityObj.country,
         'link': cityObj.link,
         'image': cityObj.image
       };
-      var infoTemplate = new InfoTemplate("${city}, ${country}", "<a href='${link}' target='_blank'><img src='${image}' /></a>");
-      var graphic = new Graphic(point, symbol, attr, infoTemplate);
+      const infoTemplate = new PopupTemplate('${city}, ${country}', '<a href="${link}" target="_blank"><img src="${image}" /></a>');
+      const graphic = new Graphic(point, symbol, attr, infoTemplate);
+
       this.graphicsLayer.add(graphic);
     },
-    zoomChangeHandler: function(evt, res) {
+    zoomChangeHandler: (evt, res) => {
       this.graphicsLayer.clear();
       if (evt.level < 4) {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 20);
         }));
       } else if (evt.level < 5) {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 30);
         }));
       } else if (evt.level < 6) {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 40);
         }));
       } else if (evt.level < 7) {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 50);
         }));
       } else if (evt.level < 8) {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 100);
         }));
       } else {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 150);
         }));
       }

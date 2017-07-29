@@ -1,7 +1,10 @@
 module.exports = {
     "env": {
         "es6": true,
-        "node": true
+        "browser": true
+    },
+    "globals": {
+        "require": true
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -54,14 +57,11 @@ module.exports = {
         "jsx-quotes": "error",
         "key-spacing": "error",
         "keyword-spacing": "error",
-        "linebreak-style": [
-            1,
-            "unix"
-        ],
+        
         "lines-around-comment": "error",
         "max-depth": "error",
         "max-nested-callbacks": "error",
-        "max-params": "error",
+        "max-params": "off",
         "max-statements": "error",
         "max-statements-per-line": "error",
         "new-cap": "error",
@@ -94,7 +94,7 @@ module.exports = {
         "no-implicit-globals": "error",
         "no-implied-eval": "error",
         "no-inline-comments": "error",
-        "no-invalid-this": "error",
+        "no-invalid-this": "off",
         "no-iterator": "error",
         "no-label-var": "error",
         "no-labels": "error",
@@ -109,7 +109,7 @@ module.exports = {
         "no-native-reassign": "error",
         "no-negated-condition": "error",
         "no-nested-ternary": "error",
-        "no-new": "error",
+        "no-new": "warn",
         "no-new-func": "error",
         "no-new-object": "error",
         "no-new-require": "error",
@@ -162,12 +162,12 @@ module.exports = {
         "operator-linebreak": "error",
         "padded-blocks": "off",
         "prefer-arrow-callback": "off",
-        "prefer-const": "error",
+        "prefer-const": "warn",
         "prefer-reflect": "error",
-        "prefer-rest-params": "error",
+        "prefer-rest-params": "off",
         "prefer-spread": "error",
         "prefer-template": "error",
-        "quote-props": "error",
+        "quote-props": "off",
         "quotes": [
             "error",
             "single"
