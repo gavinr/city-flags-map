@@ -34,7 +34,6 @@ module.exports = function(grunt) {
 			server: {
 				options: {
 					port: 9001,
-					keepalive: true,
 					base: {
 						path: 'dist',
 						options: {
@@ -44,6 +43,13 @@ module.exports = function(grunt) {
 					}
 				}
 			}
+		},
+
+		watch: {
+			main: {
+				files: ['src/**/*.js'],
+				tasks: ['copy:main']
+			}
 		}
 	});
 
@@ -52,12 +58,13 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-gh-pages');
 	grunt.loadNpmTasks('grunt-json-array-sort');
 	grunt.loadNpmTasks('grunt-contrib-connect');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
 
 	// Default task
 	grunt.registerTask('default', ['copy', 'sort']);
 	grunt.registerTask('sort', ['json_array_sort:dev']);
 	grunt.registerTask('deploy', ['default', 'gh-pages']);
-	grunt.registerTask('serve', ['copy', 'connect']);
+	grunt.registerTask('serve', ['copy', 'connect', 'watch:main']);
 
 };

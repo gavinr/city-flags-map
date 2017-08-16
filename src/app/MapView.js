@@ -25,25 +25,26 @@ define([
     // Widget LifeCycle
     postCreate: () => {
       console.log('here');
-      this.inherited(arguments);
+      // this.inherited(arguments);
       // Create the map
       const map = new Map(this.domNode, {
         basemap: 'topo',
         center: [0, 0]
       });
 
-      this.set('map', map);
+      // this.set('map', map);
 
       this.graphicsLayer = new GraphicsLayer({
         opacity: 0.80
       });
-      map.addLayer(this.graphicsLayer);
+      map.layers.add(this.graphicsLayer);
 
-      esriRequest({
-        url: 'city-flags.js',
-        'handleAs': 'json'
+      esriRequest('city-flags.js', {
+        responseType: 'json'
       }).then(lang.hitch(this, function(res) {
-        res.forEach((item) => {
+        console.log('res', res);
+        res.data.forEach((item) => {
+          console.log('item', item);
           this.addFlagGraphic(item, 22);
         });
         on(map, 'zoom-end', (evt) => {
@@ -54,6 +55,7 @@ define([
       });
     },
     addFlagGraphic: (cityObj, width) => {
+      console.log('addFlagGraphic', cityObj);
       const height = width * 0.6;
       const point = new Point(cityObj.lon, cityObj.lat);
       const symbol = new PictureMarkerSymbol(cityObj.image, width, height);
@@ -64,9 +66,10 @@ define([
         'link': cityObj.link,
         'image': cityObj.image
       };
-      const infoTemplate = new PopupTemplate('${city}, ${country}', '<a href="${link}" target="_blank"><img src="${image}" /></a>');
-      const graphic = new Graphic(point, symbol, attr, infoTemplate);
+      const popupTemplate = new PopupTemplate({title: '${city}, ${country}', conent: '<a href="${link}" target="_blank"><img src="${image}" /></a>'});
+      const graphic = new Graphic({geometry: point, symobl: symbol, attributes: attr, popupTemplate});
 
+      console.log('graphic', graphic);
       this.graphicsLayer.add(graphic);
     },
     zoomChangeHandler: (evt, res) => {

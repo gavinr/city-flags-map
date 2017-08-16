@@ -1,4 +1,4 @@
-let dojoConfig = {
+window.dojoConfig = {
   isDebug: true,
   async: true,
   useBlendWidget: true,
