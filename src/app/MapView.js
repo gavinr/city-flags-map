@@ -12,23 +12,28 @@ define([
   'esri/PopupTemplate',
   'esri/layers/GraphicsLayer',
   'esri/Map',
+  'esri/views/MapView',
   'esri/request',
   'esri/symbols/PictureMarkerSymbol',
 ], function(
   _WidgetBase, _TemplatedMixin,
   declare,
   lang, dom, on,
-  Point, Graphic, PopupTemplate, GraphicsLayer, Map, esriRequest, PictureMarkerSymbol
+  Point, Graphic, PopupTemplate, GraphicsLayer, Map, MapView, esriRequest, PictureMarkerSymbol
 ) {
   return declare([_WidgetBase, _TemplatedMixin], {
     templateString: '<div class="map-container"></div>',
     // Widget LifeCycle
-    postCreate: () => {
-      console.log('here');
+    postCreate() {
       // this.inherited(arguments);
       // Create the map
-      const map = new Map(this.domNode, {
+      this.map = new Map({
         basemap: 'topo',
+      });
+
+      this.view = new MapView({
+        container: this.domNode,
+        map: this.map,
         center: [0, 0]
       });
 
@@ -37,68 +42,61 @@ define([
       this.graphicsLayer = new GraphicsLayer({
         opacity: 0.80
       });
-      map.layers.add(this.graphicsLayer);
+      this.map.layers.add(this.graphicsLayer);
 
       esriRequest('city-flags.js', {
         responseType: 'json'
-      }).then(lang.hitch(this, function(res) {
-        console.log('res', res);
+      }).then((res) => {
         res.data.forEach((item) => {
-          console.log('item', item);
           this.addFlagGraphic(item, 22);
         });
-        on(map, 'zoom-end', (evt) => {
-          this.zoomChangeHandler(evt, res);
-        });
-      }), () => {
+      }, () => {
         console.error('Error querying data.');
       });
     },
-    addFlagGraphic: (cityObj, width) => {
-      console.log('addFlagGraphic', cityObj);
+    addFlagGraphic(cityObj, width) {
       const height = width * 0.6;
-      const point = new Point(cityObj.lon, cityObj.lat);
-      const symbol = new PictureMarkerSymbol(cityObj.image, width, height);
-
+      const point = new Point({longitude: cityObj.lon, latitude: cityObj.lat});
+      const symbol = new PictureMarkerSymbol({url: cityObj.image, width, height});
       const attr = {
         'city': cityObj.city,
         'country': cityObj.country,
         'link': cityObj.link,
         'image': cityObj.image
       };
-      const popupTemplate = new PopupTemplate({title: '${city}, ${country}', conent: '<a href="${link}" target="_blank"><img src="${image}" /></a>'});
-      const graphic = new Graphic({geometry: point, symobl: symbol, attributes: attr, popupTemplate});
+      const popupTemplate = new PopupTemplate({title: '{city}, {country}', content: '<a href="{link}" target="_blank"><img src="{image}" /></a>'});
+      const graphic = new Graphic({geometry: point, attributes: attr, popupTemplate, symbol});
 
-      console.log('graphic', graphic);
       this.graphicsLayer.add(graphic);
     },
-    zoomChangeHandler: (evt, res) => {
-      this.graphicsLayer.clear();
-      if (evt.level < 4) {
-        res.forEach(lang.hitch(this, (item) => {
-          this.addFlagGraphic(item, 20);
-        }));
-      } else if (evt.level < 5) {
-        res.forEach(lang.hitch(this, (item) => {
-          this.addFlagGraphic(item, 30);
-        }));
-      } else if (evt.level < 6) {
-        res.forEach(lang.hitch(this, (item) => {
-          this.addFlagGraphic(item, 40);
-        }));
-      } else if (evt.level < 7) {
-        res.forEach(lang.hitch(this, (item) => {
-          this.addFlagGraphic(item, 50);
-        }));
-      } else if (evt.level < 8) {
-        res.forEach(lang.hitch(this, (item) => {
-          this.addFlagGraphic(item, 100);
-        }));
-      } else {
-        res.forEach(lang.hitch(this, (item) => {
-          this.addFlagGraphic(item, 150);
-        }));
-      }
-    }
+    // zoomChangeHandler(evt, res) {
+    //   console.log('zoomChangeHandler', evt, res);
+    //   this.graphicsLayer.clear();
+    //   if (evt.level < 4) {
+    //     res.forEach(lang.hitch(this, (item) => {
+    //       this.addFlagGraphic(item, 20);
+    //     }));
+    //   } else if (evt.level < 5) {
+    //     res.forEach(lang.hitch(this, (item) => {
+    //       this.addFlagGraphic(item, 30);
+    //     }));
+    //   } else if (evt.level < 6) {
+    //     res.forEach(lang.hitch(this, (item) => {
+    //       this.addFlagGraphic(item, 40);
+    //     }));
+    //   } else if (evt.level < 7) {
+    //     res.forEach(lang.hitch(this, (item) => {
+    //       this.addFlagGraphic(item, 50);
+    //     }));
+    //   } else if (evt.level < 8) {
+    //     res.forEach(lang.hitch(this, (item) => {
+    //       this.addFlagGraphic(item, 100);
+    //     }));
+    //   } else {
+    //     res.forEach(lang.hitch(this, (item) => {
+    //       this.addFlagGraphic(item, 150);
+    //     }));
+    //   }
+    // }
   });
 });

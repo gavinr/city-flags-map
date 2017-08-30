@@ -1132,7 +1132,7 @@
     "city": "Ambato",
     "country": "Ecuador",
     "link": "//en.wikipedia.org/wiki/Ambato,_Ecuador",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bandera_Prov%C3%ADncia_Tungurahua.svg/120px-Bandera_Prov%C3%ADncia_Tungurahua.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bandera_Provincia_Tungurahua.svg/218px-Bandera_Provincia_Tungurahua.svg.png",
     "lat": -1.24166667,
     "lon": -78.61972222
   },
@@ -1825,14 +1825,6 @@
     "lon": 7.18333333
   },
   {
-    "city": "Accra",
-    "country": "Ghana",
-    "link": "//en.wikipedia.org/wiki/Accra",
-    "image": "undefined",
-    "lat": 5.55000019,
-    "lon": -0.2
-  },
-  {
     "city": "Aberdeen",
     "country": "Great Britain and Northern Ireland",
     "link": "//en.wikipedia.org/wiki/Aberdeen",
@@ -2041,14 +2033,6 @@
     "lon": 106.81666667
   },
   {
-    "city": "Tehran",
-    "country": "Iran",
-    "link": "//en.wikipedia.org/wiki/Tehran",
-    "image": "undefined",
-    "lat": 35.69611111,
-    "lon": 51.42305556
-  },
-  {
     "city": "Dublin",
     "country": "Ireland",
     "link": "//en.wikipedia.org/wiki/Dublin",
@@ -2204,7 +2188,7 @@
     "city": "Tel Aviv",
     "country": "Israel",
     "link": "//en.wikipedia.org/wiki/Tel_Aviv",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tel_Aviv_flag.svg/120px-Tel_Aviv_flag.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Flag_of_Tel_Aviv.svg/199px-Flag_of_Tel_Aviv.svg.png",
     "lat": 32.06666667,
     "lon": 34.78333333
   },
@@ -2476,7 +2460,7 @@
     "city": "Nagoya",
     "country": "Japan",
     "link": "//en.wikipedia.org/wiki/Nagoya",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Nagoya.svg/120px-Flag_of_Nagoya.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Flag_of_Nagoya%2C_Aichi.svg/218px-Flag_of_Nagoya%2C_Aichi.svg.png",
     "lat": 35.18333333,
     "lon": 136.9
   },
@@ -2492,7 +2476,7 @@
     "city": "Osaka",
     "country": "Japan",
     "link": "//en.wikipedia.org/wiki/Osaka",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Osaka_City.svg/120px-Flag_of_Osaka_City.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Osaka%2C_Osaka.svg/218px-Flag_of_Osaka%2C_Osaka.svg.png",
     "lat": 34.69388889,
     "lon": 135.50222222
   },
@@ -4973,7 +4957,7 @@
     "state": "Ohio",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Cincinnati",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Cincinnati%2C_Ohio.svg/180px-Flag_of_Cincinnati%2C_Ohio.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Flag_of_Cincinnati.svg/218px-Flag_of_Cincinnati.svg.png",
     "lat": 39.103118,
     "lon": -84.51202
   },
@@ -5144,7 +5128,7 @@
     "state": "Michigan",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Detroit",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_Detroit%2C_Michigan.svg/180px-Flag_of_Detroit%2C_Michigan.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Detroit.svg/220px-Flag_of_Detroit.svg.png?download",
     "lat": 42.331427,
     "lon": -83.045754
   },
@@ -5981,18 +5965,9 @@
     "state": "Mississippi",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Pass_Christian,_Mississippi",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Friendship_flag.png/180px-Friendship_flag.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Flag_of_Pass_Christian%2C_Mississippi.png/220px-Flag_of_Pass_Christian%2C_Mississippi.png",
     "lat": 30.315753,
     "lon": -89.247543
-  },
-  {
-    "city": "Pensacola",
-    "state": "Florida",
-    "country": "USA",
-    "link": "//en.wikipedia.org/wiki/Pensacola,_Florida",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Pensacola.svg/180px-Flag_of_Pensacola.svg.png",
-    "lat": 30.421309,
-    "lon": -87.216915
   },
   {
     "city": "Philadelphia",
@@ -6846,7 +6821,7 @@
     "city": "Colonia Tovar",
     "country": "Venezuela",
     "link": "//en.wikipedia.org/wiki/Colonia_Tovar",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bandera_Colonia_Tovar.jpg/120px-Bandera_Colonia_Tovar.jpg",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bandera_de_la_Colonia_Tovar.svg/220px-Bandera_de_la_Colonia_Tovar.svg.png",
     "lat": 10.40555573,
     "lon": -67.28944397
   },
