@@ -1,4 +1,6 @@
 # city-flags-map
+[![npm dependencies](https://david-dm.org/gavinr/city-flags-map.svg)](https://david-dm.org/gavinr/city-flags-map)
+
 Map of city flags.
 
 [![City Flags Map Screenshot](http://i.imgur.com/yDM7mUk.png)](http://gavinr.github.io/city-flags-map/)

@@ -3675,14 +3675,6 @@
     "lon": -9.13944444
   },
   {
-    "city": "Lisbon",
-    "country": "Portugal",
-    "link": "//en.wikipedia.org/wiki/Lisbon",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Lisboa.svg/120px-Bandeira_de_Lisboa.svg.png",
-    "lat": 38.71388889,
-    "lon": -9.13944444
-  },
-  {
     "city": "Loures",
     "country": "Portugal",
     "link": "//en.wikipedia.org/wiki/Loures",
@@ -6004,6 +5996,14 @@
     "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Plano%2C_Texas.png/180px-Flag_of_Plano%2C_Texas.png",
     "lat": 33.019843,
     "lon": -96.698886
+  },
+  {
+    "city": "Pocatello",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Pocatello,_Idaho",
+    "image": "//upload.wikimedia.org/wikipedia/en/thumb/2/2b/New_Pocatello%2C_Idaho_flag_2017.png/220px-New_Pocatello%2C_Idaho_flag_2017.png",
+    "lat": 42.875222,
+    "lon": -112.447278
   },
   {
     "city": "Pomona",
