@@ -28,13 +28,13 @@ define([
       // this.inherited(arguments);
       // Create the map
       this.map = new Map({
-        basemap: 'topo',
+        basemap: 'topo-vector',
       });
 
       this.view = new MapView({
         container: this.domNode,
         map: this.map,
-        center: [0, 0]
+        scale: 80000000
       });
 
       // this.set('map', map);
@@ -55,6 +55,14 @@ define([
       });
     },
     addFlagGraphic(cityObj, width) {
+
+      // var img = new Image();
+      // img.onload = function() {
+      //   console.log(this.width + 'x' + this.height);
+      // }
+      // img.src = cityObj.image;
+
+
       const height = width * 0.6;
       const point = new Point({longitude: cityObj.lon, latitude: cityObj.lat});
       const symbol = new PictureMarkerSymbol({url: cityObj.image, width, height});
@@ -64,6 +72,7 @@ define([
         'link': cityObj.link,
         'image': cityObj.image
       };
+      console.log('attr', attr);
       const popupTemplate = new PopupTemplate({title: '{city}, {country}', content: '<a href="{link}" target="_blank"><img src="{image}" /></a>'});
       const graphic = new Graphic({geometry: point, attributes: attr, popupTemplate, symbol});
 
