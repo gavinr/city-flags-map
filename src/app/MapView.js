@@ -61,6 +61,7 @@ define([
     },
     addFlagGraphic(cityObj, width) {
 
+      // todo - figure out ratio of actual image instead of assuming 0.6
       // var img = new Image();
       // img.onload = function() {
       //   console.log(this.width + 'x' + this.height);
