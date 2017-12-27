@@ -8,89 +8,107 @@ define([
   'dojo/on',
 
   'esri/geometry/Point',
-  'esri/graphic',
-  'esri/InfoTemplate',
+  'esri/Graphic',
+  'esri/PopupTemplate',
   'esri/layers/GraphicsLayer',
-  'esri/map',
+  'esri/Map',
+  'esri/views/MapView',
   'esri/request',
   'esri/symbols/PictureMarkerSymbol',
+  'esri/core/watchUtils'
 ], function(
   _WidgetBase, _TemplatedMixin,
   declare,
   lang, dom, on,
-  Point, Graphic, InfoTemplate, GraphicsLayer, Map, esriRequest, PictureMarkerSymbol
+  Point, Graphic, PopupTemplate, GraphicsLayer, Map, MapView, esriRequest, PictureMarkerSymbol, watchUtils
 ) {
   return declare([_WidgetBase, _TemplatedMixin], {
     templateString: '<div class="map-container"></div>',
     // Widget LifeCycle
-    postCreate: function() {
-      this.inherited(arguments);
+    postCreate() {
+      // this.inherited(arguments);
       // Create the map
-      var map = new Map(this.domNode, {
-        basemap: "topo",
-        center: [0, 0],
-        zoom: 3
+      this.map = new Map({
+        basemap: 'topo',
       });
-      this.set('map', map);
+
+      this.view = new MapView({
+        container: this.domNode,
+        map: this.map,
+        scale: 80000000
+      });
+
+      // this.set('map', map);
 
       this.graphicsLayer = new GraphicsLayer({
         opacity: 0.80
       });
-      map.addLayer(this.graphicsLayer);
+      this.map.layers.add(this.graphicsLayer);
 
-      esriRequest({
-        url: 'city-flags.js',
-        'handleAs': 'json'
-      }).then(lang.hitch(this, function(res) {
-        res.forEach(lang.hitch(this, function(item) {
+      esriRequest('city-flags.js', {
+        responseType: 'json'
+      }).then((res) => {
+        res.data.forEach((item) => {
           this.addFlagGraphic(item, 22);
-        }));
-        on(map, 'zoom-end', lang.hitch(this, function(evt) {
-          this.zoomChangeHandler(evt, res);
-        }));
-      }), function(err) {
-        console.log("Error querying data.");
+        });
+
+        watchUtils.whenTrue(this.view, 'stationary', (evt) => {
+          this.zoomChangeHandler(this.view, res.data);
+        });
+      }, () => {
+        console.error('Error querying data.');
       });
     },
-    addFlagGraphic: function(cityObj, width) {
-      var height = width * 0.6;
-      var point = new Point(cityObj.lon, cityObj.lat);
-      var symbol = new PictureMarkerSymbol(cityObj.image, width, height);
+    addFlagGraphic(cityObj, width) {
 
-      var attr = {
+      // todo - figure out ratio of actual image instead of assuming 0.6
+      // var img = new Image();
+      // img.onload = function() {
+      //   console.log(this.width + 'x' + this.height);
+      // }
+      // img.src = cityObj.image;
+
+
+      const height = width * 0.6;
+      const point = new Point({longitude: cityObj.lon, latitude: cityObj.lat});
+      const symbol = new PictureMarkerSymbol({url: cityObj.image, width, height});
+      const attr = {
         'city': cityObj.city,
         'country': cityObj.country,
         'link': cityObj.link,
         'image': cityObj.image
       };
-      var infoTemplate = new InfoTemplate("${city}, ${country}", "<a href='${link}' target='_blank'><img src='${image}' /></a>");
-      var graphic = new Graphic(point, symbol, attr, infoTemplate);
+      // console.log('attr', attr);
+      const popupTemplate = new PopupTemplate({title: '{city}, {country}', content: '<a href="{link}" target="_blank"><img src="{image}" /></a>'});
+      const graphic = new Graphic({geometry: point, attributes: attr, popupTemplate, symbol});
+
       this.graphicsLayer.add(graphic);
     },
-    zoomChangeHandler: function(evt, res) {
-      this.graphicsLayer.clear();
-      if (evt.level < 4) {
-        res.forEach(lang.hitch(this, function(item) {
+    zoomChangeHandler(view, res) {
+      console.log('zoomChangeHandler', view.zoom);
+      this.graphicsLayer.removeAll();
+      if (view.zoom < 4) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 20);
         }));
-      } else if (evt.level < 5) {
-        res.forEach(lang.hitch(this, function(item) {
+      } else if (view.zoom < 5) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 30);
         }));
-      } else if (evt.level < 6) {
-        res.forEach(lang.hitch(this, function(item) {
+      } else if (view.zoom < 6) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 40);
         }));
-      } else if (evt.level < 7) {
-        res.forEach(lang.hitch(this, function(item) {
+      } else if (view.zoom < 7) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 50);
         }));
-      } else if (evt.level < 8) {
-        res.forEach(lang.hitch(this, function(item) {
+      } else if (view.zoom < 8) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 100);
         }));
       } else {
-        res.forEach(lang.hitch(this, function(item) {
+        res.forEach(lang.hitch(this, (item) => {
           this.addFlagGraphic(item, 150);
         }));
       }
