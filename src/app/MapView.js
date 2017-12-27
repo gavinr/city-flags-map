@@ -15,11 +15,12 @@ define([
   'esri/views/MapView',
   'esri/request',
   'esri/symbols/PictureMarkerSymbol',
+  'esri/core/watchUtils'
 ], function(
   _WidgetBase, _TemplatedMixin,
   declare,
   lang, dom, on,
-  Point, Graphic, PopupTemplate, GraphicsLayer, Map, MapView, esriRequest, PictureMarkerSymbol
+  Point, Graphic, PopupTemplate, GraphicsLayer, Map, MapView, esriRequest, PictureMarkerSymbol, watchUtils
 ) {
   return declare([_WidgetBase, _TemplatedMixin], {
     templateString: '<div class="map-container"></div>',
@@ -28,7 +29,7 @@ define([
       // this.inherited(arguments);
       // Create the map
       this.map = new Map({
-        basemap: 'topo-vector',
+        basemap: 'topo',
       });
 
       this.view = new MapView({
@@ -49,6 +50,10 @@ define([
       }).then((res) => {
         res.data.forEach((item) => {
           this.addFlagGraphic(item, 22);
+        });
+
+        watchUtils.whenTrue(this.view, 'stationary', (evt) => {
+          this.zoomChangeHandler(this.view, res.data);
         });
       }, () => {
         console.error('Error querying data.');
@@ -72,40 +77,40 @@ define([
         'link': cityObj.link,
         'image': cityObj.image
       };
-      console.log('attr', attr);
+      // console.log('attr', attr);
       const popupTemplate = new PopupTemplate({title: '{city}, {country}', content: '<a href="{link}" target="_blank"><img src="{image}" /></a>'});
       const graphic = new Graphic({geometry: point, attributes: attr, popupTemplate, symbol});
 
       this.graphicsLayer.add(graphic);
     },
-    // zoomChangeHandler(evt, res) {
-    //   console.log('zoomChangeHandler', evt, res);
-    //   this.graphicsLayer.clear();
-    //   if (evt.level < 4) {
-    //     res.forEach(lang.hitch(this, (item) => {
-    //       this.addFlagGraphic(item, 20);
-    //     }));
-    //   } else if (evt.level < 5) {
-    //     res.forEach(lang.hitch(this, (item) => {
-    //       this.addFlagGraphic(item, 30);
-    //     }));
-    //   } else if (evt.level < 6) {
-    //     res.forEach(lang.hitch(this, (item) => {
-    //       this.addFlagGraphic(item, 40);
-    //     }));
-    //   } else if (evt.level < 7) {
-    //     res.forEach(lang.hitch(this, (item) => {
-    //       this.addFlagGraphic(item, 50);
-    //     }));
-    //   } else if (evt.level < 8) {
-    //     res.forEach(lang.hitch(this, (item) => {
-    //       this.addFlagGraphic(item, 100);
-    //     }));
-    //   } else {
-    //     res.forEach(lang.hitch(this, (item) => {
-    //       this.addFlagGraphic(item, 150);
-    //     }));
-    //   }
-    // }
+    zoomChangeHandler(view, res) {
+      console.log('zoomChangeHandler', view.zoom);
+      this.graphicsLayer.removeAll();
+      if (view.zoom < 4) {
+        res.forEach(lang.hitch(this, (item) => {
+          this.addFlagGraphic(item, 20);
+        }));
+      } else if (view.zoom < 5) {
+        res.forEach(lang.hitch(this, (item) => {
+          this.addFlagGraphic(item, 30);
+        }));
+      } else if (view.zoom < 6) {
+        res.forEach(lang.hitch(this, (item) => {
+          this.addFlagGraphic(item, 40);
+        }));
+      } else if (view.zoom < 7) {
+        res.forEach(lang.hitch(this, (item) => {
+          this.addFlagGraphic(item, 50);
+        }));
+      } else if (view.zoom < 8) {
+        res.forEach(lang.hitch(this, (item) => {
+          this.addFlagGraphic(item, 100);
+        }));
+      } else {
+        res.forEach(lang.hitch(this, (item) => {
+          this.addFlagGraphic(item, 150);
+        }));
+      }
+    }
   });
 });
