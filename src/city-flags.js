@@ -1156,7 +1156,7 @@
     "city": "Esmeraldas",
     "country": "Ecuador",
     "link": "//en.wikipedia.org/wiki/Esmeraldas,_Ecuador",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Bandera_Prov%C3%ADncia_Esmeraldas.svg/120px-Bandera_Prov%C3%ADncia_Esmeraldas.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bandera_Provincia_Esmeraldas.svg/218px-Bandera_Provincia_Esmeraldas.svg.png",
     "lat": 0.95,
     "lon": -79.66666667
   },
@@ -2353,14 +2353,6 @@
     "lon": 7.7
   },
   {
-    "city": "Venice",
-    "country": "Italy",
-    "link": "//en.wikipedia.org/wiki/Venice",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Republic_of_Venice.svg/220px-Flag_of_Republic_of_Venice.svg.png",
-    "lat": 45.4375,
-    "lon": 12.33583333
-  },
-  {
     "city": "Verona",
     "country": "Italy",
     "link": "//en.wikipedia.org/wiki/Verona",
@@ -3246,7 +3238,7 @@
     "city": "Panama City",
     "country": "Panama",
     "link": "//en.wikipedia.org/wiki/Panama_City",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bandera_de_la_ciudad_de_Panama.svg/120px-Bandera_de_la_ciudad_de_Panama.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bandera_de_Ciudad_de_Panam%C3%A1.svg/220px-Bandera_de_Ciudad_de_Panam%C3%A1.svg.png",
     "lat": 8.98333333,
     "lon": -79.51666667
   },
@@ -4494,7 +4486,7 @@
     "city": "Seville",
     "country": "Spain",
     "link": "//en.wikipedia.org/wiki/Seville",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/BanderaSevilla1.svg/120px-BanderaSevilla1.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Sevilla%2C_Spain.svg/218px-Flag_of_Sevilla%2C_Spain.svg.png",
     "lat": 37.37722222,
     "lon": -5.98694444
   },
@@ -5309,7 +5301,7 @@
     "state": "Colorado",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Golden,_Colorado",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/City_of_Golden_Colorado_Flag.jpg/220px-City_of_Golden_Colorado_Flag.jpg",
+    "image": "//upload.wikimedia.org/wikipedia/en/thumb/d/de/City_of_Golden_Colorado_Flag.jpg/220px-City_of_Golden_Colorado_Flag.jpg",
     "lat": 39.746944,
     "lon": -105.210833
   },
@@ -5372,7 +5364,7 @@
     "state": "Texas",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Harlingen,_Texas",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Flag_of_Harlingen%2C_Texas.PNG/180px-Flag_of_Harlingen%2C_Texas.PNG",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Harlingen%2C_Texas.png/220px-Flag_of_Harlingen%2C_Texas.png",
     "lat": 26.190631,
     "lon": -97.696103
   },
@@ -5651,7 +5643,7 @@
     "state": "California",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Long_Beach,_California",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Long_Beach_CA_flag.gif/200px-Long_Beach_CA_flag.gif",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Long_Beach%2C_California.png/220px-Flag_of_Long_Beach%2C_California.png",
     "lat": 33.768333,
     "lon": -118.195556
   },
@@ -5750,7 +5742,7 @@
     "state": "Minnesota",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Minneapolis,_Minnesota",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Minneapolis%2C_Minnesota.svg/180px-Flag_of_Minneapolis%2C_Minnesota.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Minneapolis.svg/220px-Flag_of_Minneapolis.svg.png",
     "lat": 44.976154,
     "lon": -93.267431
   },
@@ -5903,7 +5895,7 @@
     "state": "Maryland",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Ocean_City,_Maryland",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_Ocean_City.svg/180px-Flag_of_Ocean_City.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_Ocean_City%2C_Maryland.svg/220px-Flag_of_Ocean_City%2C_Maryland.svg.png",
     "lat": 38.336503,
     "lon": -75.084906
   },
@@ -6046,7 +6038,7 @@
     "state": "Utah",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Provo,_Utah",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Provo%2C_Utah_City_Flag.png/220px-Provo%2C_Utah_City_Flag.png",
+    "image": "//upload.wikimedia.org/wikipedia/en/thumb/2/23/Flag_of_Provo%2C_Utah_%282015%29.png/220px-Flag_of_Provo%2C_Utah_%282015%29.png",
     "lat": 40.233844,
     "lon": -111.658534
   },
@@ -6064,7 +6056,7 @@
     "state": "North Carolina",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Raleigh,_North_Carolina",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Raleigh.svg/180px-Flag_of_Raleigh.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Flag_of_Raleigh%2C_North_Carolina.svg/218px-Flag_of_Raleigh%2C_North_Carolina.svg.png",
     "lat": 35.77959,
     "lon": -78.638179
   },
@@ -6145,7 +6137,7 @@
     "state": "New York",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Rochester,_New_York",
-    "image": "//upload.wikimedia.org/wikipedia/en/thumb/f/f1/Rochester_NY_city_flag.png/220px-Rochester_NY_city_flag.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rochester_NY_city_flag.png/220px-Rochester_NY_city_flag.png",
     "lat": 43.16103,
     "lon": -77.610922
   },
@@ -6199,7 +6191,7 @@
     "state": "Texas",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/San_Antonio",
-    "image": "//upload.wikimedia.org/wikipedia/en/thumb/2/2a/Flag_of_San_Antonio%2C_Texas.svg/220px-Flag_of_San_Antonio%2C_Texas.svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_San_Antonio%2C_Texas.png/220px-Flag_of_San_Antonio%2C_Texas.png",
     "lat": 29.416667,
     "lon": -98.5
   },
@@ -6478,7 +6470,7 @@
     "state": "Indiana",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Vincennes,_Indiana",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/VincennesFlag.png/180px-VincennesFlag.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Vincennes%2C_Indiana.png/217px-Flag_of_Vincennes%2C_Indiana.png",
     "lat": 38.677269,
     "lon": -87.528633
   },
@@ -6505,7 +6497,7 @@
     "state": "D.C.",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Washington,_D.C.",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Washington%2C_D.C..svg/180px-Flag_of_Washington%2C_D.C..svg.png",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_the_District_of_Columbia.svg/220px-Flag_of_the_District_of_Columbia.svg.png",
     "lat": 38.907192,
     "lon": -77.036871
   },
@@ -6568,7 +6560,7 @@
     "state": "Delaware",
     "country": "USA",
     "link": "//en.wikipedia.org/wiki/Wilmington,_Delaware",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WilmingtonDEflag.gif/180px-WilmingtonDEflag.gif",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Flag_of_the_City_of_Wilmington.png/220px-Flag_of_the_City_of_Wilmington.png",
     "lat": 39.739072,
     "lon": -75.539788
   },
