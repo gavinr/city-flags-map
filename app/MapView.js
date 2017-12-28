@@ -85,7 +85,6 @@ define([
       this.graphicsLayer.add(graphic);
     },
     zoomChangeHandler(view, res) {
-      console.log('zoomChangeHandler', view.zoom);
       this.graphicsLayer.removeAll();
       if (view.zoom < 4) {
         res.forEach(lang.hitch(this, (item) => {
