@@ -6079,6 +6079,15 @@
     "lon": -95.227222
   },
   {
+    "city": "Sioux Falls",
+    "state": "South Dakota",
+    "country": "USA",
+    "link": "//en.wikipedia.org/wiki/Sioux_Falls,_South_Dakota",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Sioux_Falls%2C_South_Dakota.svg/220px-Flag_of_Sioux_Falls%2C_South_Dakota.svg.png",
+    "lat": 43.536389,
+    "lon": -96.731667
+  },
+  {
     "city": "Redding",
     "state": "California",
     "country": "USA",
