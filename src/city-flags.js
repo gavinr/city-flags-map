@@ -32,6 +32,14 @@
     "lon": -60.66666667
   },
   {
+    "city": "Córdoba",
+    "country": "Argentina",
+    "link": "//en.wikipedia.org/wiki/Córdoba,_Argentina",
+    "image": "//en.wikipedia.org/wiki/File:Escudo_ciudad_de_cordoba_argentina.svg",
+    "lat": -31.416667,
+    "lon": -64.183333
+  },
+  {
     "city": "Vagharshapat",
     "country": "Armenia",
     "link": "//en.wikipedia.org/wiki/Vagharshapat",
