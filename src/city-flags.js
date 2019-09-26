@@ -35,7 +35,7 @@
     "city": "Córdoba",
     "country": "Argentina",
     "link": "//en.wikipedia.org/wiki/Córdoba,_Argentina",
-    "image": "//en.wikipedia.org/wiki/File:Escudo_ciudad_de_cordoba_argentina.svg",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Escudo_ciudad_de_cordoba_argentina.svg/442px-Escudo_ciudad_de_cordoba_argentina.svg.png",
     "lat": -31.416667,
     "lon": -64.183333
   },
