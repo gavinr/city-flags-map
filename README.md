@@ -1,4 +1,4 @@
-# city-flags-map
+# City Flags Map
 
 Map of city flags
 
