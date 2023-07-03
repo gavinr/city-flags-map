@@ -1,5 +1,10 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 13 * * 1"
 permissions:
   contents: write
 jobs:
