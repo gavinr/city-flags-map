@@ -13,6 +13,7 @@ jobs:
       - name: Generate screeenshot
         continue-on-error: true
         run: |
+          npm install --global pageres-cli
           pageres https://maps.gavinr.com/city-flags.html 1024x768 --filename=screenshot --delay=10
 
       - name: Deploy
