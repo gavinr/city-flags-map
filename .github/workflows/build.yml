@@ -1,0 +1,19 @@
+name: Build and Deploy
+on: [push]
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate screeenshot
+        continue-on-error: true
+        run: |
+          pageres https://maps.gavinr.com/city-flags.html 1024x768 --filename=screenshot --delay=10
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4

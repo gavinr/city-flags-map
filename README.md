@@ -1,17 +1,13 @@
 # city-flags-map
-[![npm dependencies](https://david-dm.org/gavinr/city-flags-map.svg)](https://david-dm.org/gavinr/city-flags-map)
 
-Map of city flags.
+Map of city flags
 
-[![City Flags Map Screenshot](http://i.imgur.com/yDM7mUk.png)](http://gavinr.github.io/city-flags-map/)
+[maps.gavinr.com/city-flags.html](https://maps.gavinr.com/city-flags.html)
 
+[![City Flags Map Screenshot](http://i.imgur.com/yDM7mUk.png)](https://maps.gavinr.com/city-flags.html)
 
-Here is the fun: http://gavinr.github.io/city-flags-map/
-
-More info on [the blog](http://gavinr.com/2015/01/17/city-flags-map/)
+More info on [gavinr.com](https://gavinr.com/maps/city-flags)
 
 ## Contributions
 
-Pull requests welcome! Help on contributing can be found in our [CONTRIBUTING.md file](https://github.com/gavinr/city-flags-map/blob/master/.github/CONTRIBUTING.md). 
-
-If you don't have time feel free to open an [issue](https://github.com/gavinr/city-flags-map/issues) with your city name, flag, and reference url. 
+Please [submit an issue here](https://github.com/gavinr/city-flags-map/issues/new/choose) for missing or updated city flags!
