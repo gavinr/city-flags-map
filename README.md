@@ -2,7 +2,7 @@
 
 Map of city flags
 
-[maps.gavinr.com/city-flags.html](https://maps.gavinr.com/city-flags)
+[maps.gavinr.com/city-flags](https://maps.gavinr.com/city-flags)
 
 [![City Flags Map Screenshot](https://github.com/gavinr/city-flags-map/blob/gh-pages/screenshot.png)](https://maps.gavinr.com/city-flags)
 
